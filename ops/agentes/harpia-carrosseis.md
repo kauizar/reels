@@ -1,7 +1,7 @@
 # 🦅 Carrosséis Harpia (2×/dia · 14h23 e 20h23 de Brasília = 12h23 e 18h23 Nova York)
 
 Agente que busca temas em alta nos EUA e publica carrosséis no Instagram **@harpia.global**.
-O playbook completo fica no repositório `kauizar/harpia-content` → `CLAUDE.md` (temas, checagem, slides, legenda, publicação via Windsor, LOG.md). Domingo de manhã (seg 09h37) sai o relatório semanal.
+O playbook completo fica no repositório `kauizar/harpia-content` → `CLAUDE.md` (temas, checagem, slides, legenda, publicação via Windsor, LOG.md). Toda segunda às 09h37 sai o relatório semanal da @harpia.global.
 
 ## Painel (Escritório Virtual)
 Além do playbook, registre no painel (slug em `kauizar/reels` → `ops/escritorio.json`, ferramentas db_get/db_write):
