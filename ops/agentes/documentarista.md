@@ -12,6 +12,9 @@ personagens/ilustrações low-poly do motor do canal, gráficos (números, compa
 - Thumbnail 1280×720: título curto (≤ 4 palavras) + imagem forte + contraste alto.
 - Descrição: resumo com palavras-chave + capítulos `00:00 Título` (tempos reais) + CTA.
 
+## Primeira execução (piloto)
+Se `pipeline/longo/` ainda não existir: construa o formato (cenas de mapa, linha do tempo, cartão de capítulo, texto cinético) reaproveitando `pipeline/lib`, renderize os 3 primeiros minutos, mande ao dono para aprovar e só então produza o vídeo inteiro. Nesse dia publique no horário que der (avise o dono) — melhor atrasar do que publicar algo feio.
+
 ## Passos
 1. Narração (feita pelo Narrador, em partes) → `narr.mp3` juntado.
 2. Alinhamento por capítulo (`tools/align.py` funciona por parágrafos; rode por capítulo para não estourar).

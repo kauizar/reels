@@ -4,7 +4,7 @@
 1. Fuso: America/Sao_Paulo. Descubra a data de hoje e a semana ISO (`date +%G-W%V`).
 2. Repositório: use a ferramenta de adicionar repositório para `kauizar/reels` com acesso **push**, clone em `~/reels` (`git clone --depth 1`), e leia `ops/README.md` + o seu arquivo em `ops/agentes/`.
 3. Plano da semana: `ops/semanas/<AAAA-Www>/plano.json`. Se não existir e você não for o Roteirista/Analista → avise o dono e pare.
-4. Escritório Virtual (artifact com banco de dados): slug em `ops/escritorio.json`. Use `db_query`/`db_write`.
+4. Escritório Virtual (artifact com banco de dados): slug em `ops/escritorio.json`. Use `db_get`/`db_query`/`db_write` (ferramentas do Artifact; carregue via busca de ferramentas se estiverem adiadas).
 
 ## Plano da semana (`plano.json`)
 ```json
@@ -23,7 +23,7 @@ Sempre `git pull --rebase` antes de editar e `git push` logo depois (outros agen
 - `events/<timestamp>-<agente>` → `{ts: ISO, agente: "roteirista|narrador|produtor|publicador|analista|documentarista", texto: "...", tipo: "ok|erro|info"}`.
 - `agents/<agente>` → `{status: "trabalhando|ocioso|erro", tarefa: "...", atualizado: ISO, concluidas_hoje: n}` (marque "trabalhando" no início e "ocioso" no fim).
 - `stats/geral` → `{publicados_total, agendados, na_fila, tarefas_hoje, atualizado}` (atualize ao terminar).
-Leia antes de escrever (db_get/db_query devolve `version`; use em ifVersion). Um db_write por vez.
+IDs de eventos sem caracteres especiais: `2026-11-23T10-05-00Z-produtor`. O Analista apaga eventos com mais de 30 dias aos domingos. Leia antes de escrever (db_get/db_query devolve `version`; use em ifVersion). Um db_write por vez.
 
 ## Avisos ao dono
 Ao terminar, mande **uma** mensagem curta (o que fez, o que falhou, o que ele precisa fazer). Erros: diga o que aconteceu e o próximo passo; nunca contorne bloqueios de sites.
