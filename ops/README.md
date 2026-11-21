@@ -1,4 +1,8 @@
-# Operação "O que aconteceria se..." — manual geral
+# Escritório Virtual — manual geral
+
+Dois andares: **2º andar Harpia Global** (Carrosséis Harpia, Jasmine, Izar Turismo — playbooks `agentes/harpia-carrosseis.md`, `jasmine.md`, `izar-turismo.md`) e **1º andar Vídeos** (abaixo).
+
+## 1º andar — Operação "O que aconteceria se..."
 
 Mini-operação de vídeos com 6 agentes (sessões agendadas do Claude). Todos leem este repositório
 (`kauizar/reels`) e gravam o progresso aqui e no **Escritório Virtual** (painel/artifact).
