@@ -1,0 +1,681 @@
+## Zero barras
+
+Você desbloqueia o celular às sete e doze da manhã.
+
+Zero barras.
+
+O Wi-Fi de casa está ligado. A luzinha do roteador pisca, verde, como sempre.
+
+Mas nada carrega. Nem o WhatsApp. Nem o banco. Nem a previsão do tempo.
+
+Você desliga o roteador. Conta até dez. Liga de novo.
+
+Nada.
+
+Você pensa: deve ser a operadora. Daqui a pouco volta.
+
+Só que não volta. Não daqui a pouco. Não hoje. Não amanhã.
+
+A internet do planeta inteiro acabou de sair do ar. E vai ficar fora por trinta dias.
+
+Neste vídeo, a gente vai atravessar esse mês com você. Minuto a minuto no começo. Depois hora a hora. Depois dia a dia.
+
+O que para primeiro. O que aguenta. O que quebra de um jeito que ninguém esperava.
+
+E, no final, uma pergunta que só você pode responder: você aguentaria o mês inteiro?
+
+Antes de começar, vamos combinar as regras do jogo.
+
+Neste cenário, a energia elétrica continua funcionando. A água continua chegando. A televisão aberta e o rádio continuam no ar. Ninguém se machucou. Só a internet sumiu.
+
+Parece pouco.
+
+Não é.
+
+## O que é a internet, de verdade
+
+Quando a gente fala "internet", imagina uma nuvem. Uma coisa no ar, meio mágica, que está em todo lugar.
+
+A verdade é muito mais física. E muito mais frágil.
+
+A internet é, antes de tudo, um monte de cabos.
+
+Cabos no fundo do mar. Segundo a TeleGeography, uma empresa que mapeia essa infraestrutura, existem hoje mais de seiscentos sistemas de cabos submarinos em funcionamento no mundo. E mais de cem planejados.
+
+Esses cabos levam mais de noventa e nove por cento do tráfego de dados entre os continentes. Satélite, apesar da fama, é uma fatia pequena dessa conta.
+
+E o Brasil tem uma porta de entrada principal: a Praia do Futuro, em Fortaleza.
+
+Ali chegam cerca de dezesseis cabos submarinos. Segundo especialistas do Núcleo de Informação e Coordenação do Ponto BR, a entidade que cuida dos endereços terminados em ponto br, a cidade concentra perto de noventa por cento do tráfego internacional que entra e sai do país.
+
+Pensa nisso. Uma faixa de areia no Ceará é por onde passa quase tudo que você vê de fora do Brasil.
+
+Depois dos cabos, vêm os data centers. Galpões enormes, refrigerados, cheios de computadores empilhados em prateleiras. É ali que moram suas fotos, seus e-mails, seus vídeos, sua conta do banco.
+
+A tal da nuvem é isso: o computador de outra pessoa, num prédio sem janela.
+
+E existe uma terceira peça, invisível, que quase ninguém conhece. O DNS.
+
+DNS quer dizer Sistema de Nomes de Domínio. É a agenda telefônica da internet.
+
+Quando você digita o nome de um site, o seu celular não sabe onde ele fica. Ele pergunta pra essa agenda. A agenda responde com um endereço numérico. Só aí a página abre.
+
+No topo dessa agenda estão os chamados servidores raiz. São treze identidades, mantidas por doze organizações diferentes, espalhadas em mais de mil e oitocentas cópias pelo mundo.
+
+Essa redundância toda existe por um motivo: para que a internet não tenha um único botão de desligar.
+
+E é por isso que um apagão total e global, como o deste vídeo, é muito improvável.
+
+Improvável. Mas não impossível.
+
+E a história recente mostra como pedaços dela já caíram.
+
+Quatro de outubro de dois mil e vinte e um. Pouco depois do meio-dia e meia, no horário de Brasília, o Facebook, o Instagram e o WhatsApp somem do mapa. No mundo inteiro.
+
+A causa foi um erro de configuração na rede da própria empresa. Uma mudança apagou as rotas que diziam ao resto da internet como chegar até os servidores dela. E, com isso, a agenda do DNS parou de encontrar os endereços.
+
+Foram cerca de sete horas fora do ar.
+
+No Brasil, onde o WhatsApp está instalado em praticamente todo celular, segundo a pesquisa Panorama Mobile Time e Opinion Box, foi um pequeno terremoto. Restaurante sem pedido. Loja sem cliente. Família sem notícia.
+
+Sete horas. Só de um aplicativo. E o país inteiro sentiu.
+
+Agora, dezenove de julho de dois mil e vinte e quatro.
+
+Uma empresa de segurança digital chamada CrowdStrike envia uma atualização com defeito para os computadores dos clientes. Não foi ataque. Foi um erro.
+
+Segundo a Microsoft, cerca de oito milhões e meio de computadores com Windows travaram na tela azul.
+
+Aeroportos pararam. Só nos Estados Unidos, no dia seguinte, quase mil e quinhentos voos ainda eram cancelados. Hospitais adiaram cirurgias. Aqui no Brasil, a companhia aérea Azul teve voos afetados e o aplicativo do Bradesco apresentou problemas.
+
+Uma atualização. Um arquivo. E o mundo tropeçou.
+
+Mas existe um cenário ainda maior. E ele vem do Sol.
+
+Em primeiro de setembro de mil oitocentos e cinquenta e nove, um astrônomo inglês chamado Richard Carrington observa manchas no Sol e vê um clarão de luz que dura alguns minutos. Era uma explosão solar gigantesca.
+
+Horas depois, a nuvem de partículas atinge a Terra.
+
+Auroras aparecem em lugares onde ninguém nunca tinha visto. Cuba. Jamaica. Panamá. Em algumas cidades, dava pra ler o jornal de madrugada só com a luz do céu.
+
+E a tecnologia da época, o telégrafo, enlouquece. Em Paris, operadores viram faíscas saindo das máquinas. Em Washington, um operador levou um choque forte. E, entre Nova York e Pittsburgh, mensagens foram enviadas com as baterias desligadas, movidas só pela corrente que a tempestade induzia nos fios.
+
+Isso ficou conhecido como o Evento Carrington.
+
+Hoje, uma tempestade dessas poderia derrubar redes elétricas e danificar satélites. E os cabos submarinos têm repetidores, aparelhos que reforçam o sinal ao longo do caminho e que dependem de energia elétrica. Pesquisadores consideram esse um dos pontos fracos.
+
+Um estudo da seguradora Lloyd's, de Londres, estimou que só o setor elétrico da América do Norte poderia perder até dois trilhões e seiscentos bilhões de dólares num evento assim.
+
+E a gente já passou perto. Em julho de dois mil e doze, uma explosão solar desse tamanho cruzou exatamente a órbita da Terra. Segundo a NASA, se tivesse acontecido uma semana antes, teria acertado a gente em cheio.
+
+Então, não. Não é ficção pura.
+
+É improvável. Mas é possível.
+
+E agora que você sabe do que a internet é feita, vamos voltar para as sete e doze da manhã.
+
+## O primeiro minuto
+
+Sete e doze.
+
+Você ainda está sentado na cama, olhando para a tela.
+
+O primeiro reflexo é o de todo mundo: abrir outro aplicativo. Se o WhatsApp não vai, tenta o Instagram. Se o Instagram não vai, tenta o navegador.
+
+Você digita o nome de um site qualquer.
+
+A página fica branca. Uma bolinha gira. E aparece a mensagem: sem conexão.
+
+O segundo reflexo é culpar alguém. A operadora. O provedor. O vizinho que mexeu no poste.
+
+Você desce para pegar o celular do Wi-Fi e tenta os dados móveis. Quatro gê, cinco gê, tanto faz. As barras até aparecem. Mas nada carrega.
+
+Esse é o primeiro detalhe estranho deste cenário.
+
+O sinal do celular e a internet não são a mesma coisa. A antena da rua ainda está ligada. Ela só não tem para onde mandar seus dados.
+
+É como uma estrada que chega numa ponte caída. O asfalto está lá. Mas não leva a lugar nenhum.
+
+Enquanto isso, no mesmo minuto, em todo o Brasil, milhões de pessoas fazem exatamente o mesmo gesto. Desligam o Wi-Fi. Ligam o Wi-Fi. Tiram o chip. Reiniciam o celular.
+
+Segundo o Instituto Brasileiro de Geografia e Estatística, o IBGE, em dois mil e vinte e quatro cerca de cento e sessenta e oito milhões de brasileiros com dez anos ou mais usaram a internet.
+
+Cento e sessenta e oito milhões de pessoas apertando o botão de reiniciar quase ao mesmo tempo.
+
+E nesse primeiro minuto acontecem coisas que você nem vê.
+
+O relógio do seu celular, por exemplo. Ele normalmente acerta a hora pela rede. Agora, ele passa a contar sozinho. Por um tempo, isso não faz diferença. Mas guarda essa informação.
+
+Nos bancos, os sistemas começam a disparar alertas. Os computadores dos bancos conversam entre si por redes próprias, privadas. Mas os aplicativos no seu celular dependem da internet pública. E, para eles, você simplesmente sumiu.
+
+Nos aeroportos, os painéis de embarque congelam na última informação que receberam.
+
+Nos hospitais, um médico tenta abrir o resultado de um exame de sangue que estava salvo num sistema na nuvem. A tela não responde.
+
+E nas bolsas de valores do mundo, robôs que compram e vendem ações em frações de segundo perdem a conexão com o resto do mercado.
+
+Você ainda não sabe de nada disso.
+
+Você só sabe que o seu celular, aquele objeto que você checa dezenas de vezes por dia, de repente virou uma câmera com lanterna e calculadora.
+
+E, curiosamente, ele continua funcionando direitinho para isso.
+
+A câmera tira foto. A lanterna acende. A calculadora calcula. As músicas que você baixou continuam tocando.
+
+O celular não quebrou. Ele só ficou sozinho.
+
+Você olha pela janela.
+
+A rua parece normal. Um ônibus passa. Um cachorro late. O padeiro abre a porta da padaria.
+
+O mundo físico não percebeu nada.
+
+Ainda.
+
+## A primeira hora
+
+Oito da manhã.
+
+Você precisa ir trabalhar. Ou levar alguém na escola. Ou simplesmente sair de casa.
+
+E aí começam os primeiros tropeços.
+
+Você abre o aplicativo de transporte. Tela de carregamento eterna. Sem Uber, sem noventa e nove, sem nenhum carro por aplicativo. Os motoristas, do outro lado, também estão olhando para um mapa vazio.
+
+Você pensa no GPS.
+
+E aqui vem uma surpresa boa: o GPS em si continua funcionando. Ele não depende da internet. O seu celular conversa direto com os satélites, lá em cima, e sabe exatamente onde você está.
+
+O problema é o mapa.
+
+A maioria dos aplicativos de mapa baixa as ruas, os nomes e o trânsito pela internet, em tempo real. Sem isso, você vira uma bolinha azul piscando num fundo cinza.
+
+Você sabe onde está. Só não sabe onde fica o resto.
+
+Quem baixou mapas para usar sem conexão, numa viagem antiga, de repente tem um tesouro no bolso.
+
+Você decide pegar o ônibus.
+
+No ponto, um senhor pergunta se o seu celular está funcionando. Você diz que não. Ele diz que o dele também não. E, pela primeira vez em muito tempo, duas pessoas desconhecidas conversam num ponto de ônibus sem olhar para a tela.
+
+Na roleta, mais um problema. Em muitas cidades, a recarga do cartão de transporte é feita pelo aplicativo. O seu cartão ainda tem saldo, porque esse saldo fica gravado nele ou no sistema da empresa. Mas quem ia recarregar hoje cedo, não recarrega.
+
+Oito e vinte. Você passa na padaria para tomar um café.
+
+Pede um pão na chapa e um pingado. Na hora de pagar, tira o celular para fazer um Pix.
+
+E trava.
+
+O Pix virou parte do corpo do brasileiro. Segundo o Banco Central, em dezembro de dois mil e vinte e cinco, o sistema passou pela primeira vez de trezentos milhões de transações num único dia.
+
+Trezentos milhões. Num país de pouco mais de duzentos milhões de pessoas.
+
+Mas o Pix, para você, começa no aplicativo do banco. E o aplicativo do banco precisa da internet para falar com o banco.
+
+Sem internet, não tem Pix.
+
+Você tenta o cartão.
+
+A moça do caixa passa na maquininha. A maquininha pensa. Pensa mais um pouco. E mostra: falha de comunicação.
+
+A maioria das maquininhas modernas usa um chip de celular ou o Wi-Fi da loja para autorizar a compra. Sem conexão, ela não consegue perguntar ao banco se você tem saldo.
+
+Você procura dinheiro na carteira.
+
+E, se você é como boa parte dos brasileiros hoje em dia, a carteira tem um documento, um cartão de plano de saúde e uma nota fiscal velha.
+
+O dono da padaria, que te conhece de vista, fala a frase que vai se repetir milhões de vezes neste mês: depois você acerta.
+
+Guarda essa frase também. Ela vai ser importante.
+
+Nove da manhã. Você chega ao trabalho.
+
+Se você trabalha num escritório, encontra uma cena curiosa. Computadores ligados, ninguém fazendo nada. O sistema de vendas, o e-mail, a planilha compartilhada, a reunião por vídeo. Tudo estava na nuvem.
+
+O chefe tenta organizar alguma coisa. Alguém sugere trabalhar com o que está salvo no computador. Alguém lembra que nada está salvo no computador.
+
+Se você trabalha de casa, a situação é ainda mais estranha. Você está, oficialmente, trabalhando. Mas não existe nenhuma forma de provar isso. Nem de avisar ninguém.
+
+E, para quem trabalha com entregas ou aplicativos, a primeira hora é mais dura. O entregador do iFood, que saiu de casa para começar o turno, está parado numa esquina com a moto ligada, esperando um pedido que nunca chega.
+
+Às nove e meia, alguém no seu trabalho tem uma ideia antiga.
+
+Liga o rádio.
+
+## O primeiro dia
+
+O rádio chia por um segundo. E depois fala.
+
+Uma locutora explica que a falha é mundial. Que não é só no Brasil. Que as autoridades ainda não sabem a causa. E que a recomendação é manter a calma.
+
+De repente, uma tecnologia de mais de cem anos virou a fonte de informação mais confiável da sua cidade.
+
+E isso faz sentido. O rádio e a televisão aberta não dependem da internet para chegar até você. A antena da emissora transmite. A sua antena recebe. Pelo ar.
+
+Nas redações, a correria é enorme. Os jornalistas também perderam o acesso às agências de notícias pela internet. Muitas emissoras passam a usar telefone, ligações por satélite próprias e repórteres na rua para descobrir o que está acontecendo.
+
+Na hora do almoço, os bares e restaurantes que têm televisão ficam lotados. Não pelo prato do dia. Pelo noticiário.
+
+E a primeira grande decisão econômica acontece logo cedo: a bolsa de valores não abre.
+
+É uma estimativa, claro. Mas faz sentido. Uma bolsa moderna depende de corretoras conectadas, de investidores enviando ordens e de informação circulando em tempo real. Sem isso, o preço das ações deixa de fazer sentido. O mais provável é que a negociação seja suspensa.
+
+No mundo inteiro, a mesma coisa.
+
+Por volta do meio-dia, os aeroportos tomam uma decisão parecida.
+
+O controle de tráfego aéreo, que usa rádio e redes próprias, continua conseguindo guiar os aviões que já estão no ar. Eles pousam em segurança.
+
+Mas as companhias aéreas dependem da internet para quase tudo do lado de baixo. Reservas. Lista de passageiros. Bagagem. Cálculo de peso e combustível. Escala de tripulação.
+
+Lembra do apagão da CrowdStrike? Ali, só uma parte dos computadores travou, e milhares de voos foram cancelados.
+
+Aqui, é tudo.
+
+Até o fim do primeiro dia, a estimativa é que a imensa maioria dos voos comerciais do planeta esteja no chão.
+
+Nos hospitais, a tarde é de adaptação.
+
+Muitos hospitais grandes já têm planos de contingência para quedas de sistema. Prontuário de papel. Prescrição à mão. Pulseira de identificação escrita com caneta.
+
+Os aparelhos de verdade, como monitores, respiradores e máquinas de raio-x, funcionam com energia, e a energia continua. O problema é a informação em volta deles.
+
+O resultado do exame que estava num laboratório de outra cidade. O histórico do paciente que estava num sistema na nuvem. A autorização do plano de saúde, que normalmente sai por um portal na internet.
+
+Médicos e enfermeiros voltam a fazer o que se fazia há trinta anos: perguntar, anotar, ligar.
+
+E por falar em ligar.
+
+As ligações telefônicas comuns, neste cenário, funcionam em parte. As redes das operadoras têm uma estrutura própria, separada da internet pública. Mas elas também usam muitos sistemas modernos que dependem de dados. E, principalmente, nunca foram feitas para todo mundo ligar ao mesmo tempo.
+
+No primeiro dia, a rede de telefone fica congestionada. Você tenta ligar para sua mãe três, quatro, cinco vezes. Às vezes completa. Às vezes dá ocupado. Isso é uma estimativa razoável de como seria.
+
+Mensagem de texto, aquele SMS que você só usava para receber código de verificação, volta a ser útil. Ela é curtinha, mas costuma passar mesmo quando a rede está cheia.
+
+No fim da tarde, você volta para casa.
+
+À noite, a cena se repete em milhões de casas brasileiras.
+
+Família reunida na sala. Televisão ligada no jornal. O apresentador aparece sério e repete as mesmas informações: a falha é global, as causas estão sendo investigadas, não há previsão de volta.
+
+Seu irmão pergunta se é ataque hacker. Sua tia diz que é coisa do governo. Seu vizinho jura que é o fim do mundo.
+
+Ninguém sabe. E, pela primeira vez em anos, ninguém pode pesquisar.
+
+Você vai dormir sem rolar o feed.
+
+E, para sua surpresa, dorme mais cedo.
+
+## Os primeiros três dias
+
+Na manhã do segundo dia, você acorda e confere o celular por reflexo.
+
+Zero barras. De novo.
+
+O choque do primeiro dia passou. Agora começa uma coisa diferente: a corrida.
+
+E a primeira corrida é pelo dinheiro em espécie.
+
+Se não tem Pix e quase nenhuma maquininha funciona, a nota de papel vira rainha. E todo mundo percebe isso ao mesmo tempo.
+
+As filas nos caixas eletrônicos dobram a esquina.
+
+Aqui vale uma explicação. Muitos caixas eletrônicos se comunicam com os bancos por redes privadas de telecomunicação, e não pela internet que você usa em casa. Então, é possível que parte deles continue funcionando. Mas isso varia muito de banco para banco, e de máquina para máquina. É uma estimativa.
+
+O que é quase certo é que o dinheiro dentro deles acaba rápido. Os carros-fortes têm rotas planejadas por sistema. E a demanda, de repente, é muitas vezes maior do que o normal.
+
+Os bancos e o Banco Central entram em modo de emergência. A expectativa é que o governo use a televisão e o rádio para pedir calma e anunciar regras: limite de saque, horário especial nas agências, prioridade para aposentados.
+
+Nas agências, gerentes que nunca imaginaram fazer isso voltam a usar papel, carimbo e caderno.
+
+E o comércio do bairro faz o que sempre soube fazer.
+
+O fiado volta.
+
+Lembra daquela frase da padaria? Depois você acerta. No terceiro dia, ela já está escrita num caderno de capa dura, atrás do balcão, com o seu nome e um valor.
+
+A confiança entre vizinhos, de repente, vira um sistema financeiro.
+
+A segunda corrida é para o supermercado.
+
+E aqui a gente precisa entender uma coisa importante: o supermercado perto da sua casa não tem um estoque gigante guardado nos fundos.
+
+A maioria das grandes redes trabalha com o que se chama de reposição contínua. As prateleiras são reabastecidas com frequência, com base em sistemas que contam o que foi vendido e fazem o pedido automaticamente para o centro de distribuição.
+
+Esses sistemas, hoje, dependem em grande parte da internet.
+
+Sem eles, o pedido não sai. O caminhão não sabe o que levar. O centro de distribuição não sabe o que pedir para a fábrica.
+
+E, ao mesmo tempo, as pessoas, com medo, compram o dobro.
+
+No terceiro dia, segundo essa lógica, as prateleiras de água, arroz, feijão, papel higiênico e pilhas começam a esvaziar. Não porque o Brasil ficou sem comida. Mas porque a comida ficou parada no lugar errado.
+
+Os supermercados que se viram melhor são os que têm gente experiente. O gerente antigo que lembra como se fazia pedido por telefone. O fornecedor da região que aparece com o caminhão e combina tudo no aperto de mão.
+
+A terceira corrida é pelo combustível.
+
+As bombas de gasolina funcionam com energia elétrica, e a energia continua. Então, a gasolina sai do bico.
+
+O problema é o pagamento e a reposição. O posto precisa receber o dinheiro e, depois, pedir mais combustível para a distribuidora. E boa parte desse fluxo também passa por sistemas conectados.
+
+Quando as pessoas ouvem no rádio que pode faltar, fazem o que sempre fazem: enchem o tanque. Mesmo sem precisar.
+
+No terceiro dia, alguns postos colocam aquela placa de papelão na frente: sem gasolina.
+
+Enquanto isso, na sua casa, outras coisas mudam.
+
+As crianças não têm aula on-line. A escola manda um aviso escrito à mão, preso no portão: aulas presenciais mantidas, trazer caderno.
+
+Quem dependia da agenda do celular descobre que não sabe de cor o número de ninguém. Nem do pai. Nem do melhor amigo.
+
+Você fica olhando para a tela de contatos, que ainda funciona, porque está salva no aparelho, e anota os números importantes num papel. Só por garantia.
+
+E no terceiro dia acontece mais uma coisa curiosa.
+
+Lembra do relógio do celular? Ele vinha contando o tempo sozinho, sem acertar pela rede. A diferença ainda é pequena, de segundos. Mas em sistemas industriais, em bancos e em redes de energia, a sincronia do tempo é coisa séria. Os técnicos dessas áreas passam a usar outras fontes de horário, como o próprio sinal dos satélites de GPS, que carrega uma hora muito precisa.
+
+São esses detalhes invisíveis que mostram o tamanho da dependência.
+
+No fim do terceiro dia, você está cansado. Andou mais do que o normal. Esperou em mais fila do que o normal. Conversou com mais gente do que o normal.
+
+E percebe que já sabe o nome de três vizinhos que, uma semana antes, eram só rostos no elevador.
+
+## A primeira semana
+
+Dia sete.
+
+Uma semana sem internet.
+
+O país não acabou. Mas mudou de jeito.
+
+A grande pergunta do noticiário já não é quando volta. É como a gente vive até voltar.
+
+E a primeira coisa que fica clara é que o mundo se dividiu em dois tipos de serviço: os que sabem funcionar no papel e os que não sabem.
+
+Os que sabem são os mais antigos. Cartórios. Correios. Feiras livres. Mercadinhos de bairro. Oficinas mecânicas. Barbearias.
+
+Eles sentem o baque, mas seguem. Porque nunca deixaram de ter um caderno, um balcão e uma conversa olho no olho.
+
+Os que não sabem são os que nasceram dentro da internet.
+
+Os aplicativos de entrega, por exemplo. Sem o aplicativo, não existe pedido, não existe rota, não existe pagamento.
+
+Mas aqui acontece uma coisa bonita.
+
+Os entregadores, que estavam parados desde o primeiro dia, não desaparecem. Eles se organizam do jeito antigo. Fazem ponto na frente de restaurantes. Combinam com os donos. O restaurante pendura um cartaz com o número de telefone fixo. Você liga, pede, e o motoboy leva.
+
+É o delivery dos anos noventa, só que com moto mais nova.
+
+O mesmo acontece com os motoristas de aplicativo. Muitos voltam a fazer ponto como os antigos taxistas. Na frente da rodoviária. Do hospital. Da praça.
+
+E o preço? Combinado na hora. No dinheiro, quando tem. No fiado, quando conhece.
+
+Na primeira semana, o mercado de trabalho também começa a mostrar rachaduras.
+
+Empresas que vivem de vender pela internet param praticamente de faturar. Lojas on-line. Agências de publicidade digital. Criadores de conteúdo. Plataformas de cursos. Tudo isso, de repente, está sem vitrine.
+
+É uma estimativa, mas é razoável imaginar que muitas dessas empresas deem férias coletivas. Ou que comecem a negociar como pagar os salários.
+
+E aqui entra outro problema: como pagar salário sem sistema bancário on-line?
+
+As grandes empresas pagam seus funcionários por meio de arquivos enviados para os bancos. Sem conexão, isso fica muito mais difícil. Algumas podem tentar levar os arquivos fisicamente até as agências. Outras podem pagar em dinheiro, em envelope, como se fazia décadas atrás.
+
+E o governo? Aposentadorias, benefícios sociais e salários públicos dependem de sistemas enormes, que conversam entre si o tempo todo.
+
+Uma estimativa provável é que os bancos públicos priorizem esses pagamentos, com atendimento presencial em horários estendidos. As filas nas agências da Caixa, no começo do mês, viram notícia nacional.
+
+Na saúde, a primeira semana é de equilíbrio frágil.
+
+Os hospitais adaptados ao papel continuam atendendo. Mas começam a aparecer problemas na cadeia de remédios. A farmácia do hospital também fazia pedidos por sistema. Os distribuidores também controlavam estoque por sistema.
+
+Remédio não some do dia para a noite. Mas alguns, mais específicos, começam a ficar escassos em certas regiões.
+
+E as farmácias de bairro enfrentam um dilema. Receitas digitais, que chegavam pelo celular, não chegam mais. Muitos médicos voltam ao receituário de papel, com carimbo e assinatura.
+
+Nas escolas, a primeira semana é quase um retorno ao passado.
+
+Professores que montavam aula com vídeo e apresentação agora usam quadro e giz. Ou caneta. E, para alguns alunos, isso é estranho. Para outros, é a primeira vez em muito tempo que a aula tem a atenção da turma inteira, sem celular embaixo da mesa.
+
+E as bibliotecas?
+
+As bibliotecas públicas, que muita gente nem lembrava que existiam, ficam cheias. Gente procurando livro de receita. Manual de conserto. Mapa da cidade. Dicionário.
+
+No fim da primeira semana, você percebe uma coisa sobre si mesmo.
+
+Você não sabe fazer quase nada sem perguntar para a internet.
+
+Não sabe a dose certa de um remédio sem olhar a bula. Não sabe consertar a torneira que pinga. Não sabe o horário do ônibus. Não sabe a receita do bolo da sua avó.
+
+E, ao mesmo tempo, descobre que alguém no seu prédio sabe.
+
+O senhor do quinto andar sabe consertar torneira. A vizinha do térreo sabe a receita de memória. O menino do terceiro andar conhece todos os horários de ônibus da região, porque pega todos.
+
+A informação não desapareceu. Ela só voltou a morar nas pessoas.
+
+## A segunda semana
+
+Dia dez. Dia doze. Dia quatorze.
+
+Se a primeira semana foi de susto e improviso, a segunda é de rotina nova.
+
+E rotina nova é o que o ser humano faz melhor.
+
+Na sua rua, as coisas já têm outro ritmo.
+
+De manhã, você liga o rádio para ouvir as notícias. As emissoras viraram centrais de serviço. Além do noticiário, leem recados de ouvintes. Uma mãe procurando o filho que estava viajando. Uma empresa avisando que o pagamento vai sair na sexta. Um posto informando que chegou combustível.
+
+O rádio, que muita gente achava coisa do passado, vira a rede social da cidade.
+
+E a televisão aberta faz o papel de grande praça pública. É ali que o governo fala. É ali que os especialistas explicam. É ali que, todas as noites, milhões de famílias assistem juntas à mesma coisa, como não acontecia há muito tempo.
+
+Nas portas dos prédios, surgem murais.
+
+Quadros de cortiça, folhas de papel, fita adesiva. Oferecendo serviço. Pedindo ajuda. Vendendo bolo. Trocando ovos por pão. Avisando sobre uma reunião de condomínio.
+
+O mural do prédio vira o grupo do WhatsApp. Só que sem figurinha.
+
+Na segunda semana, a economia começa a mostrar o tamanho do estrago.
+
+Muitas indústrias trabalham com peças que chegam de outros estados e de outros países, na hora exata em que vão ser usadas. Esse modelo depende de comunicação constante entre fábrica, transportadora e fornecedor.
+
+Sem internet, a comunicação fica lenta. E a peça não chega na hora certa.
+
+É uma estimativa, mas é provável que várias linhas de produção parem por falta de componentes. Fábricas de carro. De eletrônicos. De remédios.
+
+O comércio internacional sente ainda mais.
+
+Os navios continuam navegando, porque a navegação usa rádio e satélite próprios. Mas a papelada de importação e exportação, as liberações na alfândega, os pagamentos entre países, tudo isso passa por sistemas digitais.
+
+Containers se acumulam nos portos. Como Santos, o maior do país.
+
+Ao mesmo tempo, a solidariedade cresce. E as tensões também.
+
+Nas cidades maiores, alguns supermercados passam a limitar a quantidade de produtos por pessoa. Há discussões em filas. Há quem tente estocar mais do que precisa.
+
+Mas, na maioria dos lugares, segundo o que a história de outros grandes apagões e desastres costuma mostrar, o comportamento predominante não é o caos. É a cooperação.
+
+As pessoas se ajudam mais do que se atacam. Os vizinhos se organizam. As igrejas, as associações de bairro e os clubes viram pontos de apoio.
+
+E surge uma figura nova no seu bairro: o mensageiro.
+
+Às vezes é um adolescente de bicicleta. Às vezes é um motoboy. Ele leva bilhetes de uma casa para outra, de um bairro para outro, por alguns trocados. Quase um carteiro informal.
+
+Na segunda semana, você também começa a perceber mudanças em você.
+
+A ansiedade do começo, aquela vontade de pegar o celular a cada cinco minutos, diminuiu. Você ainda pega por reflexo, de vez em quando. Mas já não espera nada.
+
+Você está lendo um livro pela primeira vez em meses.
+
+Você conversa mais com quem mora com você. Às vezes, isso é ótimo. Às vezes, gera briga. Porque agora não tem para onde fugir.
+
+Você caminha mais. Chega mais cansado em casa. Dorme melhor.
+
+E sente uma falta enorme de algumas coisas.
+
+Das fotos da família que estavam na nuvem e que você nunca baixou. Da conversa com aquele amigo que mora em outro país e com quem você só falava por mensagem. Das músicas que você só ouvia por aplicativo. Do vídeo bobo que te fazia rir antes de dormir.
+
+A internet não era só trabalho e banco.
+
+Era também companhia.
+
+Nesse ponto, uma pergunta começa a aparecer nas conversas: e se não voltar nunca mais?
+
+Ninguém tem a resposta. Mas, no noticiário, os técnicos falam em restabelecimento gradual. Primeiro, redes regionais. Depois, as conexões entre países.
+
+E você começa a contar os dias.
+
+## Um mês
+
+Dia vinte e um. Dia vinte e cinco. Dia trinta.
+
+Um mês sem internet.
+
+Se você parar para olhar o mundo agora, vai ver uma coisa curiosa. Ele parece, ao mesmo tempo, mais antigo e mais esperto.
+
+Mais antigo porque muita coisa voltou a funcionar como funcionava décadas atrás.
+
+Dinheiro em espécie. Caderno de fiado. Ligação telefônica. Carta. Mapa de papel. Fila no banco. Jornal impresso.
+
+Aliás, o jornal impresso ganha uma segunda vida. Os jornais que ainda têm gráfica voltam a vender nas bancas. Gente faz fila para comprar.
+
+Mas o mundo também está mais esperto, porque em trinta dias ele aprendeu a se virar.
+
+Os bancos criaram rotinas de atendimento presencial organizadas. As empresas passaram a mandar documentos por portadores, em pen drives e em papel. As redes de supermercados voltaram a fazer pedidos por telefone e por planilhas levadas pessoalmente. Os governos estabeleceram canais de comunicação por rádio e televisão.
+
+Algumas redes locais também começam a surgir. Universidades, empresas e órgãos públicos ligam seus computadores entre si dentro de uma mesma cidade ou região. Não é a internet. São ilhas de conexão. Mas já ajudam.
+
+Ainda assim, o custo de um mês desse jeito é gigantesco.
+
+Não existe um número exato. Nenhum estudo consegue medir com precisão um apagão total desse tamanho. Mas, para ter uma ideia, lembra que o apagão de sete horas do WhatsApp, em dois mil e vinte e um, já foi suficiente para gerar prejuízo em milhares de pequenos negócios brasileiros.
+
+Agora imagina trinta dias. Do planeta inteiro. Em todos os setores ao mesmo tempo.
+
+A estimativa mais segura é que o mundo entraria numa recessão profunda. Empresas fechariam. Muita gente perderia o emprego. Principalmente quem trabalha em áreas que só existem por causa da internet.
+
+E quem sofre mais, como quase sempre, é quem tem menos reserva.
+
+Quem vive de vender pelo aplicativo. Quem recebe o salário no dia e gasta no dia. Quem depende de um benefício que não caiu na conta.
+
+Ao mesmo tempo, quem sofre menos é quem já vivia um pouco desconectado.
+
+O pequeno produtor rural, que vende na feira. O comércio da cidade pequena, onde todo mundo se conhece. A avó que nunca confiou no aplicativo do banco e sempre guardou um dinheirinho em casa.
+
+Pela primeira vez, ser antigo virou vantagem.
+
+E você?
+
+No dia trinta, você já tem uma rotina.
+
+Acorda, liga o rádio. Toma café na padaria, onde o seu nome já está no caderno. Vai trabalhar, ou ajuda no que dá. Encontra os vizinhos no fim da tarde. Assiste ao jornal da noite com a família. Lê um pouco. Dorme.
+
+É uma vida mais lenta. Mais trabalhosa. Mais cansativa em alguns aspectos.
+
+Mas também é uma vida em que você olha mais para as pessoas.
+
+Você sabe o nome do seu vizinho. Sabe quem precisa de ajuda no prédio. Sabe onde fica a farmácia mais próxima sem precisar de mapa.
+
+Você não ficou mais burro sem a internet.
+
+Você só voltou a usar a parte do cérebro que tinha terceirizado para ela.
+
+## O dia em que volta
+
+Dia trinta e um. Seis e quarenta da manhã.
+
+Você está escovando os dentes quando ouve um barulho que não ouvia há um mês.
+
+O celular vibrando em cima da pia.
+
+Depois vibra de novo. E de novo. E de novo.
+
+A internet voltou.
+
+E aqui vem uma surpresa: ela não volta de uma vez. Volta aos pedaços.
+
+Primeiro, algumas redes locais. Depois, conexões entre cidades. Depois, algumas rotas internacionais. É uma estimativa, mas a religação de uma rede desse tamanho provavelmente seria feita aos poucos, para não sobrecarregar tudo de uma vez.
+
+Porque imagina o tamanho do susto.
+
+Bilhões de celulares, computadores, televisões e máquinas tentando se reconectar no mesmo minuto. Baixando atualizações. Sincronizando fotos. Mandando mensagens acumuladas.
+
+É como um estádio inteiro tentando sair pela mesma porta.
+
+No seu celular, chegam centenas de notificações. Mensagens de trinta dias atrás. Um bom dia da sua tia, mandado na manhã em que tudo caiu. Um meme que alguém enviou e que agora não faz mais sentido nenhum.
+
+Os primeiros dias de volta são, provavelmente, de lentidão. Sites que não abrem. Aplicativos que travam. Bancos que pedem paciência.
+
+E de uma enxurrada de golpes.
+
+Esse é um ponto sério. Todo grande evento de tecnologia atrai criminosos. Mensagens falsas dizendo que você precisa atualizar seus dados. Links prometendo devolver o dinheiro perdido. Pedidos de Pix urgentes de parentes que não são parentes.
+
+Na volta, a regra de ouro é a mesma de sempre, só que mais forte: desconfie de tudo que chega com pressa.
+
+Aos poucos, o Pix volta. As maquininhas voltam. O aplicativo de transporte volta. O iFood volta.
+
+E aí começa a parte mais interessante.
+
+O que o mundo aprende com isso?
+
+Primeiro, os governos e as empresas iam olhar com muito mais cuidado para a infraestrutura física da internet. Os cabos submarinos. Os data centers. O fato de que quase todo o tráfego internacional do Brasil passa por uma única praia.
+
+Não por acaso, o próprio governo brasileiro já discute espalhar a chegada de cabos por outros pontos do litoral, para não depender tanto de Fortaleza. Depois de um mês como esse, essa conversa ia acelerar.
+
+Segundo, os planos de contingência deixariam de ser papelada esquecida numa gaveta.
+
+Bancos manteriam formas de pagamento que funcionam sem internet. Hospitais treinariam o uso do papel. Supermercados guardariam mais estoque. Escolas teriam material impresso.
+
+É provável que muita gente passe a guardar um pouco de dinheiro em espécie em casa. Que baixe mapas para usar sem conexão. Que salve as fotos importantes num lugar físico. Que anote os números de telefone essenciais num papel.
+
+Terceiro, algumas coisas que pareciam mortas voltariam com outro status.
+
+O rádio, por exemplo. Ele provou que é a tecnologia de emergência mais resistente que a gente tem. Talvez, depois disso, muita gente fizesse questão de ter um radinho de pilha em casa, como as avós sempre tiveram.
+
+E quarto, a mais difícil de medir: as pessoas.
+
+Algumas, assim que a internet volta, mergulham de novo no feed como se nada tivesse acontecido. Em uma semana, esquecem de tudo.
+
+Mas outras mudam um pouco.
+
+Começam a deixar o celular fora do quarto. Continuam cumprimentando o vizinho. Mantêm o hábito de ler antes de dormir. Lembram do gosto de uma conversa sem interrupção.
+
+A internet volta. Mas, para essas pessoas, o mundo de antes não volta exatamente igual.
+
+## O que sobra quando a conexão cai
+
+Agora, vamos voltar para a vida real.
+
+Hoje, enquanto você assiste a este vídeo, a internet está funcionando. Os cabos estão no fundo do mar. Os data centers estão refrigerados. A agenda do DNS está respondendo bilhões de perguntas por segundo.
+
+E a chance de tudo isso cair ao mesmo tempo, por um mês inteiro, é muito pequena.
+
+Mas os apagões parciais acontecem. O de dois mil e vinte e um, que derrubou o WhatsApp por cerca de sete horas. O de dois mil e vinte e quatro, que travou milhões de computadores por causa de uma única atualização. E o Sol continua lá, soltando suas tempestades, de tempos em tempos.
+
+Então, a pergunta deste vídeo não é se a internet vai acabar.
+
+É o quanto você depende dela sem perceber.
+
+Se a internet caísse hoje, você teria dinheiro em espécie para passar uma semana? Você saberia o número de telefone de três pessoas de cor? Você saberia chegar ao hospital mais próximo sem mapa? Você conhece o nome de algum vizinho?
+
+Não precisa virar ninguém que mora no mato. Não precisa jogar o celular fora.
+
+Mas talvez valha a pena ter um plano pequeno. Um dinheirinho guardado. Um radinho de pilha. Uma lista de telefones no papel. E alguém, perto de você, com quem dá para contar.
+
+Porque, no fim, o que esse mês sem internet mostra é simples.
+
+A internet conecta computadores.
+
+Mas quem segura o mundo quando ela cai são as pessoas.
+
+E agora eu quero saber de você.
+
+Se a internet acabasse amanhã por um mês inteiro, você aguentaria firme até o fim, ou surtaria logo na primeira semana?
+
+Escreve um nos comentários se você aguentaria o mês inteiro. Escreve dois se você surtaria na primeira semana.
+
+E manda este vídeo para aquele amigo que não sobreviveria nem uma hora sem o celular.
+
+Se você curtiu essa viagem, se inscreve no canal e ativa o sininho, porque toda semana tem um novo "o que aconteceria se".
+
+E no próximo vídeo, a gente vai para um cenário ainda mais extremo: o que aconteceria se você acordasse e fosse o último ser humano na Terra.
+
+Te vejo lá.
