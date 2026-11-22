@@ -20,6 +20,16 @@ Ordem: o 1º roteiro recebido (ou o que o dono marcar como Y) é o de segunda.
 - Saída: uma pasta por dia em `...\IZAR TURISMO POSTS\`, ex.: `2026-11-23 (seg) - POST - Fernando de Noronha\` com `01.png, 02.png…` + `legenda.txt` (posts) ou só as telas numeradas + `textos.txt` (stories: enquetes/links/stickers sugeridos).
 - Controle: `_ROTEIROS (coloque aqui)\feitos.txt` — `<arquivo do roteiro> -> <pastas geradas>`.
 
+## Identidade da Izar (padrão atual — siga as referências em `_IDENTIDADE`)
+- Referência principal: `referencia-carrossel-01..04.png` (carrossel "Treze Tílias", nov/2026). Copie esse sistema:
+  - **Capa:** foto grande do destino no topo (2/3), card branco arredondado embaixo com selo pequeno em caps azul ("PRIMEIRA VIAGEM DE 2027"), título forte azul-marinho, subtítulo em azul, pílulas ("5 dias", "Pensão completa"), "Arraste →", logo Izar em quadrado branco no canto e pílula com a data no canto oposto.
+  - **Miolo:** fundo branco/azul-clarinho, selo em caps ("O QUE ESTÁ INCLUSO", "EXPERIÊNCIAS"), título 2 linhas, cards brancos com ícone fino azul, título e 1 linha de descrição; numeração "02/04".
+  - **Fechamento:** fundo azul-marinho, "GARANTA SUA VAGA", preço grande (se o roteiro tiver), card branco com detalhes, "Entre em contato e saiba mais!" + pílula WhatsApp **(13) 3448-7000** + logo.
+- Cores: azul-marinho `#0B3D6B` (principal), azul `#0078CE`, azul-céu `#1FA8E8` (detalhes, linha pontilhada com aviãozinho), fundos `#F3F9FE` / `#EAF6FD`, branco.
+- Tipografia: sans geométrica pesada nos títulos (Poppins/Plus Jakarta Sans 700–800), regular no corpo. Logo: `logo-izar-1.png` / `logo-izar-2-horizontal.png`.
+- Stories (1080×1920): mesmo sistema, 3–5 telas: capa com foto + título, 1–2 telas de destaques/inclusos, tela final "Garanta sua vaga" com WhatsApp e sticker sugerido (enquete/link) em `textos.txt`.
+- Fotos: use as que o dono mandar junto do roteiro. Sem foto → capa com ilustração/gradiente próprio no mesmo sistema (nunca foto da internet) e avise o dono que, com fotos do destino, fica melhor.
+
 ## Cada execução (todo dia 20h47)
 1. Veja os roteiros que ainda não estão em `feitos.txt`. Para cada viagem nova, gere **todas** as peças da semana que ainda faltam e cujo dia é **amanhã ou depois** (domingo à noite → as 4 peças). Nada novo → atualize o painel e encerre sem mensagem.
 2. Siga o roteiro do dono (títulos, ordem, chamadas); só corrija ortografia. Imagens: fotos que o dono mandou; sem fotos → fundos e ilustrações próprios. Nunca use foto da internet com direitos autorais nem pessoas reais. Preços, datas e condições: só os que estiverem no roteiro.
