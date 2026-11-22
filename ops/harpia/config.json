@@ -1,1 +1,4 @@
-{"jasmine_biblioteca": "", "pasta_harpia": "C:\\Users\\kauan\\Documents\\Harpia"}
+{"pasta_harpia": "C:\\Users\\kauan\\Documents\\Harpia",
+ "jasmine_biblioteca": "C:\\Users\\kauan\\iCloudPhotos\\Photos",
+ "jasmine_biblioteca_obs": "Pasta do iCloud Fotos no PC (~39 mil arquivos, nomes numéricos, fotos e vídeos misturados). Provavelmente junta a biblioteca do dono com a Shared Library da Jasmine: filtre por data/viagem do planejamento e confira visualmente. Listar a pasta inteira demora (>2 min): use find com -newermt/-maxdepth e limite de tempo.",
+ "izar": "C:\\Users\\kauan\\Documents\\Harpia\\Izar Turismo (roteiros/, posts/, identidade/, feitos.txt)"}
