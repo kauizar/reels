@@ -1,4 +1,6 @@
-{"pasta_harpia": "C:\\Users\\kauan\\Documents\\Harpia",
+{"jasmine_calendario": "C:\\Users\\kauan\\Documents\\JASMINE POSTS\\_CALENDARIO (coloque aqui)",
+ "jasmine_saida": "C:\\Users\\kauan\\Documents\\JASMINE POSTS",
  "jasmine_biblioteca": "C:\\Users\\kauan\\iCloudPhotos\\Photos",
- "jasmine_biblioteca_obs": "Pasta do iCloud Fotos no PC (~39 mil arquivos, nomes numéricos, fotos e vídeos misturados). Provavelmente junta a biblioteca do dono com a Shared Library da Jasmine: filtre por data/viagem do planejamento e confira visualmente. Listar a pasta inteira demora (>2 min): use find com -newermt/-maxdepth e limite de tempo.",
- "izar": "C:\\Users\\kauan\\Documents\\Harpia\\Izar Turismo (roteiros/, posts/, identidade/, feitos.txt)"}
+ "izar_roteiros": "C:\\Users\\kauan\\Documents\\IZAR TURISMO POSTS\\_ROTEIROS (coloque aqui)",
+ "izar_identidade": "C:\\Users\\kauan\\Documents\\IZAR TURISMO POSTS\\_IDENTIDADE (logo e cores)",
+ "izar_saida": "C:\\Users\\kauan\\Documents\\IZAR TURISMO POSTS"}

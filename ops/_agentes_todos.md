@@ -53,44 +53,56 @@ Além do playbook, registre no painel (slug em `kauizar/reels` → `ops/escritor
 
 ---
 
-# 🌴 Jasmine (cliente da Harpia) — Todo dia 10h17
+# 🌴 Jasmine (cliente da Harpia) — todo dia 10h17
 
-Perfil pessoal de lifestyle de viagens da Jasmine (Los Angeles): cultura, diversidade, nada mirabolante. **Tudo em inglês.**
-O dono faz o **planejamento quinzenal**; a Jasmine compartilhou com ele a Shared Library do iPhone (~100 mil mídias).
-Este agente, todo dia, **prepara os posts de amanhã** seguindo o planejamento. Ele **não publica**: o dono agenda.
+Perfil pessoal de lifestyle de viagens da Jasmine (Los Angeles): cultura, diversidade, nada mirabolante. **Tudo para a cliente em inglês.**
+A Jasmine **não** está conectada ao Claude: o agente só **prepara**; o dono pega na pasta no dia e publica.
+O dono manda o **calendário a cada 15 dias**. Todo dia o agente prepara os posts de **amanhã** (assim o dono sempre tem o dia seguinte pronto).
 
-## Onde ficam as coisas (PC do dono)
-- Planejamento: `C:\Users\kauan\Documents\Harpia\Jasmine\planejamento\` — o arquivo mais recente vale (PDF, DOCX, imagem, TXT…). Se o dono mandar o planejamento no chat, ele é salvo aí.
-- Biblioteca de mídias: caminho registrado em `ops/harpia/config.json` (`jasmine_biblioteca`). Se ainda estiver vazio, procure (Imagens\iCloud Photos, pastas com "Jasmine", "Shared", "Compartilhad") e, se achar, grave no config; se não achar, avise o dono e pare.
-- Saída: `C:\Users\kauan\Documents\Harpia\Jasmine\posts\<AAAA-MM-DD>\` (data do post).
+## Pastas (PC do dono)
+- Calendário: `C:\Users\kauan\Documents\JASMINE POSTS\_CALENDARIO (coloque aqui)\` — o arquivo mais recente vale. Se o dono mandar no chat, salve aí.
+- Biblioteca de mídias: `C:\Users\kauan\iCloudPhotos\Photos` (~39 mil arquivos; mistura fotos do dono com a Shared Library da Jasmine). Listar tudo demora: filtre por data com `find -newermt`, limite o tempo de cada comando e trabalhe em lotes.
+- Saída: `C:\Users\kauan\Documents\JASMINE POSTS\<AAAA-MM-DD> (<dia>) - <formato> - <tema>\`.
 
 ## Passos
-1. Leia o planejamento atual e pegue os posts de **amanhã** (formato, tema, local/viagem, referência). Sem post amanhã → registre "nada amanhã" no painel e encerre. Planejamento vencido (sem datas futuras) → avise o dono que precisa do próximo e encerre.
-2. Ache candidatas na biblioteca: filtre primeiro por metadados (data EXIF/mtime, pasta, nome, viagem/local do planejamento) com `device_bash`, depois **olhe** de 30 a 60 miniaturas (gere miniaturas pequenas com script e traga só elas ao container; nunca copie a biblioteca inteira).
-3. Escolha as melhores (nítidas, bem enquadradas, coerentes com o tema; carrossel: 5–10, abrindo com a mais forte; reel: vídeos de 10–60s). Evite fotos com outras pessoas em destaque, documentos, telas, conteúdo íntimo ou que exponha endereço.
-4. Copie as escolhidas (originais, sem editar) para a pasta de saída, numeradas na ordem (`01_...jpg`), e escreva `legenda.txt` em inglês (gancho + 2–3 frases + CTA + 5–8 hashtags) e `notas.txt` (por que cada mídia, sugestões de corte/edição).
-5. Painel: `agents/jasmine` (trabalhando → ocioso), evento "Posts de <data> prontos: N mídias". Mensagem curta ao dono com o caminho da pasta.
+1. Leia o calendário e pegue os posts de **amanhã** (formato, tema, viagem/local, referência). Sem post amanhã → painel "nada amanhã" e encerre sem mensagem. Calendário acabando (≤ 2 dias restantes) → avise o dono que precisa do próximo.
+2. Ache candidatas: filtre por metadados (data EXIF/arquivo, período da viagem do calendário) e **olhe** 30–60 miniaturas (gere miniaturas pequenas no PC e traga só elas). Nunca copie a biblioteca inteira.
+3. Escolha as melhores (nítidas, bem enquadradas, coerentes com o tema; carrossel 5–10 abrindo com a mais forte; reel: vídeos de 10–60 s). Evite fotos com outras pessoas em destaque, documentos, telas, conteúdo íntimo ou que exponha endereço — e **só fotos da Jasmine/da viagem dela**, não do dono.
+4. Copie os originais para a pasta de saída, numerados (`01_...jpg`), com `caption.txt` em inglês (gancho + 2–3 frases + CTA + 5–8 hashtags) e `notas.txt` em português (por que cada mídia, sugestões de corte/edição).
+5. Painel: `agents/jasmine` (trabalhando → ocioso), evento "Posts de <data> prontos". Mensagem curta ao dono com o nome da pasta.
 
 ## Regras
-Mídias da cliente são privadas: nunca suba para GitHub, artifacts ou qualquer serviço externo; só a pasta do PC. Não apague nada da biblioteca.
+Mídias da cliente são privadas: nunca vão para GitHub, artifacts ou qualquer serviço externo — só para a pasta do PC. Não apague nem altere nada na biblioteca.
 
 ---
 
-# ✈️ Izar Turismo (cliente da Harpia) — Todo dia 11h13
+# ✈️ Izar Turismo (cliente da Harpia) — todo dia 20h47
 
-O dono manda **roteiros de posts** e este agente transforma cada roteiro em **post pronto** (imagens 1080×1350 para carrossel ou post único; 1080×1920 para story), salvo numa pasta do PC dele. **Não publica.**
+A Izar Turismo **não** está conectada ao Claude: o agente só **produz** e deixa na pasta; o dono pega no dia e publica.
 
-## Onde ficam as coisas (PC do dono)
-- Entrada: `C:\Users\kauan\Documents\Harpia\Izar Turismo\roteiros\` — cada arquivo é um roteiro (TXT, DOCX, PDF ou imagem). Roteiros mandados no chat também são salvos aí.
-- Saída: `C:\Users\kauan\Documents\Harpia\Izar Turismo\posts\<AAAA-MM-DD>-<tema>\` com `01.png, 02.png…` + `legenda.txt`.
-- Controle: `C:\Users\kauan\Documents\Harpia\Izar Turismo\feitos.txt` (um nome de roteiro por linha). Roteiro já listado = não refaz.
-- Identidade visual: `C:\Users\kauan\Documents\Harpia\Izar Turismo\identidade\` (logo, cores, fontes, posts de referência). Se a pasta estiver vazia, use os posts já feitos em `posts\` como referência; se também não houver nada, faça o primeiro post num estilo limpo de agência de turismo e peça ao dono a identidade.
+## Ritmo semanal
+Todo **domingo** o dono manda os roteiros de **2 viagens** (Y e X). Com eles, o agente faz:
 
-## Passos
-1. Liste roteiros novos (não estão em `feitos.txt`). Nenhum → painel "Sem roteiros novos" e encerre sem mensagem.
-2. Para cada roteiro: siga exatamente o texto do dono (títulos, ordem dos slides, chamada); só corrija ortografia. Imagens de fundo: fotos que o dono deixar junto do roteiro; se não houver, ilustração/gradiente próprios (nunca use foto da internet com direitos autorais nem foto de pessoa real).
-3. Renderize (HTML+Chrome headless ou Python/Pillow), **olhe cada imagem** antes de entregar (texto cortado, contraste, erros), salve na pasta de saída e escreva `legenda.txt` em português com hashtags de turismo.
-4. Acrescente o roteiro em `feitos.txt`. Painel: `agents/izar` (trabalhando → ocioso), evento "Post <tema> pronto". Mensagem curta ao dono com as pastas.
+| Dia | Peça |
+|---|---|
+| Segunda | **Post** da viagem Y (carrossel 1080×1350, 5–8 slides, ou post único se o roteiro pedir) |
+| Terça | **Stories** da viagem Y (1080×1920, 3–5 telas) |
+| Quarta | **Post** da viagem X |
+| Quinta | **Stories** da viagem X |
+
+Ordem: o 1º roteiro recebido (ou o que o dono marcar como Y) é o de segunda.
+
+## Pastas (PC do dono)
+- Entrada: `C:\Users\kauan\Documents\IZAR TURISMO POSTS\_ROTEIROS (coloque aqui)\` — TXT, DOCX, PDF ou imagens; fotos que vierem junto podem ser usadas nas artes. Se o dono mandar no chat, salve aí.
+- Identidade: `...\IZAR TURISMO POSTS\_IDENTIDADE (logo e cores)\` (logo, cores, fontes, posts de referência). Vazia → use as peças já feitas como referência; se não houver nenhuma, faça um estilo limpo de agência de turismo e peça a identidade ao dono.
+- Saída: uma pasta por dia em `...\IZAR TURISMO POSTS\`, ex.: `2026-11-23 (seg) - POST - Fernando de Noronha\` com `01.png, 02.png…` + `legenda.txt` (posts) ou só as telas numeradas + `textos.txt` (stories: enquetes/links/stickers sugeridos).
+- Controle: `_ROTEIROS (coloque aqui)\feitos.txt` — `<arquivo do roteiro> -> <pastas geradas>`.
+
+## Cada execução (todo dia 20h47)
+1. Veja os roteiros que ainda não estão em `feitos.txt`. Para cada viagem nova, gere **todas** as peças da semana que ainda faltam e cujo dia é **amanhã ou depois** (domingo à noite → as 4 peças). Nada novo → atualize o painel e encerre sem mensagem.
+2. Siga o roteiro do dono (títulos, ordem, chamadas); só corrija ortografia. Imagens: fotos que o dono mandou; sem fotos → fundos e ilustrações próprios. Nunca use foto da internet com direitos autorais nem pessoas reais. Preços, datas e condições: só os que estiverem no roteiro.
+3. Renderize (HTML + Chrome headless ou Pillow), **olhe cada imagem** (texto cortado, contraste, erros), salve, escreva legenda em português com CTA para WhatsApp/direct e hashtags de turismo.
+4. Atualize `feitos.txt`, o painel (`agents/izar`, evento por peça) e mande ao dono: "Semana da Izar pronta: seg Post Y, ter Stories Y, qua Post X, qui Stories X — pasta IZAR TURISMO POSTS".
 
 ---
 

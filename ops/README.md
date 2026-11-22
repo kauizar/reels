@@ -1,6 +1,6 @@
 # Escritório Virtual — manual geral
 
-Dois andares: **2º andar Harpia Global** (Carrosséis Harpia, Jasmine, Izar Turismo — playbooks `agentes/harpia-carrosseis.md`, `jasmine.md`, `izar-turismo.md`) e **1º andar Vídeos** (abaixo).
+Dois andares: **2º andar Harpia Global** (Carrosséis Harpia; Jasmine e Izar Turismo entregam em Documentos\JASMINE POSTS e Documentos\IZAR TURISMO POSTS — playbooks `agentes/harpia-carrosseis.md`, `jasmine.md`, `izar-turismo.md`) e **1º andar Vídeos** (abaixo).
 
 ## 1º andar — Operação "O que aconteceria se..."
 

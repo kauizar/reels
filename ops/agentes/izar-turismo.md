@@ -1,15 +1,27 @@
-# ✈️ Izar Turismo (cliente da Harpia) — Todo dia 11h13
+# ✈️ Izar Turismo (cliente da Harpia) — todo dia 20h47
 
-O dono manda **roteiros de posts** e este agente transforma cada roteiro em **post pronto** (imagens 1080×1350 para carrossel ou post único; 1080×1920 para story), salvo numa pasta do PC dele. **Não publica.**
+A Izar Turismo **não** está conectada ao Claude: o agente só **produz** e deixa na pasta; o dono pega no dia e publica.
 
-## Onde ficam as coisas (PC do dono)
-- Entrada: `C:\Users\kauan\Documents\Harpia\Izar Turismo\roteiros\` — cada arquivo é um roteiro (TXT, DOCX, PDF ou imagem). Roteiros mandados no chat também são salvos aí.
-- Saída: `C:\Users\kauan\Documents\Harpia\Izar Turismo\posts\<AAAA-MM-DD>-<tema>\` com `01.png, 02.png…` + `legenda.txt`.
-- Controle: `C:\Users\kauan\Documents\Harpia\Izar Turismo\feitos.txt` (um nome de roteiro por linha). Roteiro já listado = não refaz.
-- Identidade visual: `C:\Users\kauan\Documents\Harpia\Izar Turismo\identidade\` (logo, cores, fontes, posts de referência). Se a pasta estiver vazia, use os posts já feitos em `posts\` como referência; se também não houver nada, faça o primeiro post num estilo limpo de agência de turismo e peça ao dono a identidade.
+## Ritmo semanal
+Todo **domingo** o dono manda os roteiros de **2 viagens** (Y e X). Com eles, o agente faz:
 
-## Passos
-1. Liste roteiros novos (não estão em `feitos.txt`). Nenhum → painel "Sem roteiros novos" e encerre sem mensagem.
-2. Para cada roteiro: siga exatamente o texto do dono (títulos, ordem dos slides, chamada); só corrija ortografia. Imagens de fundo: fotos que o dono deixar junto do roteiro; se não houver, ilustração/gradiente próprios (nunca use foto da internet com direitos autorais nem foto de pessoa real).
-3. Renderize (HTML+Chrome headless ou Python/Pillow), **olhe cada imagem** antes de entregar (texto cortado, contraste, erros), salve na pasta de saída e escreva `legenda.txt` em português com hashtags de turismo.
-4. Acrescente o roteiro em `feitos.txt`. Painel: `agents/izar` (trabalhando → ocioso), evento "Post <tema> pronto". Mensagem curta ao dono com as pastas.
+| Dia | Peça |
+|---|---|
+| Segunda | **Post** da viagem Y (carrossel 1080×1350, 5–8 slides, ou post único se o roteiro pedir) |
+| Terça | **Stories** da viagem Y (1080×1920, 3–5 telas) |
+| Quarta | **Post** da viagem X |
+| Quinta | **Stories** da viagem X |
+
+Ordem: o 1º roteiro recebido (ou o que o dono marcar como Y) é o de segunda.
+
+## Pastas (PC do dono)
+- Entrada: `C:\Users\kauan\Documents\IZAR TURISMO POSTS\_ROTEIROS (coloque aqui)\` — TXT, DOCX, PDF ou imagens; fotos que vierem junto podem ser usadas nas artes. Se o dono mandar no chat, salve aí.
+- Identidade: `...\IZAR TURISMO POSTS\_IDENTIDADE (logo e cores)\` (logo, cores, fontes, posts de referência). Vazia → use as peças já feitas como referência; se não houver nenhuma, faça um estilo limpo de agência de turismo e peça a identidade ao dono.
+- Saída: uma pasta por dia em `...\IZAR TURISMO POSTS\`, ex.: `2026-11-23 (seg) - POST - Fernando de Noronha\` com `01.png, 02.png…` + `legenda.txt` (posts) ou só as telas numeradas + `textos.txt` (stories: enquetes/links/stickers sugeridos).
+- Controle: `_ROTEIROS (coloque aqui)\feitos.txt` — `<arquivo do roteiro> -> <pastas geradas>`.
+
+## Cada execução (todo dia 20h47)
+1. Veja os roteiros que ainda não estão em `feitos.txt`. Para cada viagem nova, gere **todas** as peças da semana que ainda faltam e cujo dia é **amanhã ou depois** (domingo à noite → as 4 peças). Nada novo → atualize o painel e encerre sem mensagem.
+2. Siga o roteiro do dono (títulos, ordem, chamadas); só corrija ortografia. Imagens: fotos que o dono mandou; sem fotos → fundos e ilustrações próprios. Nunca use foto da internet com direitos autorais nem pessoas reais. Preços, datas e condições: só os que estiverem no roteiro.
+3. Renderize (HTML + Chrome headless ou Pillow), **olhe cada imagem** (texto cortado, contraste, erros), salve, escreva legenda em português com CTA para WhatsApp/direct e hashtags de turismo.
+4. Atualize `feitos.txt`, o painel (`agents/izar`, evento por peça) e mande ao dono: "Semana da Izar pronta: seg Post Y, ter Stories Y, qua Post X, qui Stories X — pasta IZAR TURISMO POSTS".
