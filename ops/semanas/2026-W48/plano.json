@@ -1,7 +1,7 @@
 {
  "semana": "2026-W48",
  "inicio": "2026-11-23",
- "aprovado": false,
+ "aprovado": true,
  "criado": "2026-11-22",
  "autor": "roteirista",
  "itens": [
@@ -492,5 +492,6 @@
    "status": "roteiro"
   }
  ],
- "obs": "Plano ajustado em 22/11: só Shorts nesta semana. Longos agora são 1 por mês (1ª quarta-feira); os 3 roteiros longos foram para ops/backlog/longos/."
+ "obs": "Plano ajustado em 22/11: só Shorts nesta semana. Longos agora são 1 por mês (1ª quarta-feira); os 3 roteiros longos foram para ops/backlog/longos/.",
+ "aprovado_por": "dono, no chat, 22/11 13h38"
 }
