@@ -28,7 +28,8 @@ Ordem: o 1º roteiro recebido (ou o que o dono marcar como Y) é o de segunda.
 - Cores: azul-marinho `#0B3D6B` (principal), azul `#0078CE`, azul-céu `#1FA8E8` (detalhes, linha pontilhada com aviãozinho), fundos `#F3F9FE` / `#EAF6FD`, branco.
 - Tipografia: sans geométrica pesada nos títulos (Poppins/Plus Jakarta Sans 700–800), regular no corpo. Logo: `logo-izar-1.png` / `logo-izar-2-horizontal.png`.
 - Stories (1080×1920): mesmo sistema, 3–5 telas: capa com foto + título, 1–2 telas de destaques/inclusos, tela final "Garanta sua vaga" com WhatsApp e sticker sugerido (enquete/link) em `textos.txt`.
-- Fotos: use as que o dono mandar junto do roteiro. Sem foto → capa com ilustração/gradiente próprio no mesmo sistema (nunca foto da internet) e avise o dono que, com fotos do destino, fica melhor.
+- Fotos: 1º as que o dono mandar (pasta `_ROTEIROS\fotos`). Se faltar, busque no **Wikimedia Commons** (navegador do app Claude: API `commons.wikimedia.org/w/api.php`, generator=search, prop=imageinfo com extmetadata) **só fotos com licença livre** (CC0, CC BY, CC BY-SA, domínio público); baixe a versão de 1920px, salve em `_ROTEIROS\fotos\` e registre autor + licença em `CREDITOS.txt`. Nunca use fotos do Google Imagens, de sites de notícia ou de bancos pagos.
+- Crédito obrigatório (CC BY/BY-SA): texto pequeno e discreto no canto da arte onde a foto aparece — "Foto: <Autor> / Wikimedia Commons, CC BY-SA" — e repetido no fim da `legenda.txt`.
 
 ## Cada execução (todo dia 20h47)
 1. Veja os roteiros que ainda não estão em `feitos.txt`. Para cada viagem nova, gere **todas** as peças da semana que ainda faltam e cujo dia é **amanhã ou depois** (domingo à noite → as 4 peças). Nada novo → atualize o painel e encerre sem mensagem.
