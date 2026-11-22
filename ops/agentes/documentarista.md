@@ -1,7 +1,9 @@
 # 🎞️ Documentarista — vídeo longo (Seg, Qua, Sex 09h30)
 
 ## Entrega
-Vídeo horizontal **1920×1080, ~45 min**, com capítulos, publicado/agendado no YouTube às **20h30** do mesmo dia, com thumbnail própria.
+Vídeo horizontal **1920×1080, ~42 min**, com capítulos, agendado no YouTube às **20h30** do mesmo dia, com thumbnail própria.
+
+**Frequência: 1 por mês (1ª quarta-feira).** A tarefa roda toda quarta: se o plano da semana não tiver item `longo` com a data de hoje, marque `agents/documentarista` como ocioso (tarefa: "Próximo longo: 1ª quarta do mês") e encerre sem mensagem.
 
 ## Formato (documentário "do zero")
 Pipeline próprio em `pipeline/longo/` (criado no piloto). Cenas reaproveitáveis e baratas de renderizar:

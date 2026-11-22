@@ -41,6 +41,59 @@ Ao terminar, mande **uma** mensagem curta (o que fez, o que falhou, o que ele pr
 
 ---
 
+# 🦅 Carrosséis Harpia (2×/dia · 14h23 e 20h23 de Brasília = 12h23 e 18h23 Nova York)
+
+Agente que busca temas em alta nos EUA e publica carrosséis no Instagram **@harpia.global**.
+O playbook completo fica no repositório `kauizar/harpia-content` → `CLAUDE.md` (temas, checagem, slides, legenda, publicação via Windsor, LOG.md). Toda segunda às 09h37 sai o relatório semanal da @harpia.global.
+
+## Painel (Escritório Virtual)
+Além do playbook, registre no painel (slug em `kauizar/reels` → `ops/escritorio.json`, ferramentas db_get/db_write):
+- `agents/harpia` → `trabalhando` no início (tarefa: "Pesquisando tema"), `ocioso` no fim (tarefa: "Último: <tema>").
+- evento `events/<AAAA-MM-DDTHH-MM-SSZ>-harpia` → `{ts, agente:"harpia", texto:"Carrossel publicado: <tema>", tipo:"ok"}` (ou `erro`).
+
+---
+
+# 🌴 Jasmine (cliente da Harpia) — Todo dia 10h17
+
+Perfil pessoal de lifestyle de viagens da Jasmine (Los Angeles): cultura, diversidade, nada mirabolante. **Tudo em inglês.**
+O dono faz o **planejamento quinzenal**; a Jasmine compartilhou com ele a Shared Library do iPhone (~100 mil mídias).
+Este agente, todo dia, **prepara os posts de amanhã** seguindo o planejamento. Ele **não publica**: o dono agenda.
+
+## Onde ficam as coisas (PC do dono)
+- Planejamento: `C:\Users\kauan\Documents\Harpia\Jasmine\planejamento\` — o arquivo mais recente vale (PDF, DOCX, imagem, TXT…). Se o dono mandar o planejamento no chat, ele é salvo aí.
+- Biblioteca de mídias: caminho registrado em `ops/harpia/config.json` (`jasmine_biblioteca`). Se ainda estiver vazio, procure (Imagens\iCloud Photos, pastas com "Jasmine", "Shared", "Compartilhad") e, se achar, grave no config; se não achar, avise o dono e pare.
+- Saída: `C:\Users\kauan\Documents\Harpia\Jasmine\posts\<AAAA-MM-DD>\` (data do post).
+
+## Passos
+1. Leia o planejamento atual e pegue os posts de **amanhã** (formato, tema, local/viagem, referência). Sem post amanhã → registre "nada amanhã" no painel e encerre. Planejamento vencido (sem datas futuras) → avise o dono que precisa do próximo e encerre.
+2. Ache candidatas na biblioteca: filtre primeiro por metadados (data EXIF/mtime, pasta, nome, viagem/local do planejamento) com `device_bash`, depois **olhe** de 30 a 60 miniaturas (gere miniaturas pequenas com script e traga só elas ao container; nunca copie a biblioteca inteira).
+3. Escolha as melhores (nítidas, bem enquadradas, coerentes com o tema; carrossel: 5–10, abrindo com a mais forte; reel: vídeos de 10–60s). Evite fotos com outras pessoas em destaque, documentos, telas, conteúdo íntimo ou que exponha endereço.
+4. Copie as escolhidas (originais, sem editar) para a pasta de saída, numeradas na ordem (`01_...jpg`), e escreva `legenda.txt` em inglês (gancho + 2–3 frases + CTA + 5–8 hashtags) e `notas.txt` (por que cada mídia, sugestões de corte/edição).
+5. Painel: `agents/jasmine` (trabalhando → ocioso), evento "Posts de <data> prontos: N mídias". Mensagem curta ao dono com o caminho da pasta.
+
+## Regras
+Mídias da cliente são privadas: nunca suba para GitHub, artifacts ou qualquer serviço externo; só a pasta do PC. Não apague nada da biblioteca.
+
+---
+
+# ✈️ Izar Turismo (cliente da Harpia) — Todo dia 11h13
+
+O dono manda **roteiros de posts** e este agente transforma cada roteiro em **post pronto** (imagens 1080×1350 para carrossel ou post único; 1080×1920 para story), salvo numa pasta do PC dele. **Não publica.**
+
+## Onde ficam as coisas (PC do dono)
+- Entrada: `C:\Users\kauan\Documents\Harpia\Izar Turismo\roteiros\` — cada arquivo é um roteiro (TXT, DOCX, PDF ou imagem). Roteiros mandados no chat também são salvos aí.
+- Saída: `C:\Users\kauan\Documents\Harpia\Izar Turismo\posts\<AAAA-MM-DD>-<tema>\` com `01.png, 02.png…` + `legenda.txt`.
+- Controle: `C:\Users\kauan\Documents\Harpia\Izar Turismo\feitos.txt` (um nome de roteiro por linha). Roteiro já listado = não refaz.
+- Identidade visual: `C:\Users\kauan\Documents\Harpia\Izar Turismo\identidade\` (logo, cores, fontes, posts de referência). Se a pasta estiver vazia, use os posts já feitos em `posts\` como referência; se também não houver nada, faça o primeiro post num estilo limpo de agência de turismo e peça ao dono a identidade.
+
+## Passos
+1. Liste roteiros novos (não estão em `feitos.txt`). Nenhum → painel "Sem roteiros novos" e encerre sem mensagem.
+2. Para cada roteiro: siga exatamente o texto do dono (títulos, ordem dos slides, chamada); só corrija ortografia. Imagens de fundo: fotos que o dono deixar junto do roteiro; se não houver, ilustração/gradiente próprios (nunca use foto da internet com direitos autorais nem foto de pessoa real).
+3. Renderize (HTML+Chrome headless ou Python/Pillow), **olhe cada imagem** antes de entregar (texto cortado, contraste, erros), salve na pasta de saída e escreva `legenda.txt` em português com hashtags de turismo.
+4. Acrescente o roteiro em `feitos.txt`. Painel: `agents/izar` (trabalhando → ocioso), evento "Post <tema> pronto". Mensagem curta ao dono com as pastas.
+
+---
+
 # 📊 Analista — Relatórios e checkup (Domingo 09h)
 
 ## Objetivo
@@ -52,7 +105,7 @@ Medir a semana que passou e dizer ao Roteirista o que fazer mais/menos.
    - YouTube (`youtube`): por vídeo dos últimos 7 e 28 dias — views, likes, comments, shares, average_view_percentage, estimated_minutes_watched, subscribers_gained.
    - Instagram (`instagram`): por mídia — reach/plays, likes, comments, saves, shares (descubra os campos com get_fields).
    - TikTok: se o conector `tiktok_organic` estiver conectado, idem; se não, anote "sem dados".
-3. Calcule: top 5 e piores 5 vídeos (por views e por retenção), média por formato (curto ~1:10 vs longo), melhor horário, temas que mais seguraram retenção, progresso de monetização:
+3. Calcule: top 5 e piores 5 vídeos (por views e por retenção), média por formato (curto ~1:05 vs longo), melhor horário, temas que mais seguraram retenção, progresso de monetização:
    - YouTube: inscritos (meta 1.000), horas de exibição 12m (meta 4.000; atenção: a partir de 01/02/2027 a meta sobe para 8.000h / 20M views de Shorts para novos canais), views de Shorts 90d.
    - TikTok Creator Rewards: 10k seguidores + 100k views/30d.
 4. Checkup: (a) todos os itens da semana passada chegaram a `publicado_ig`/`agendado_yt`? liste falhas; (b) agendamentos da próxima semana existem? (c) créditos ElevenLabs (se o navegador estiver disponível, leia "credits remaining" em elevenlabs.io/app/speech-synthesis/text-to-speech); (d) espaço do repo.
@@ -66,8 +119,8 @@ Medir a semana que passou e dizer ao Roteirista o que fazer mais/menos.
 
 ## Entrega
 `ops/semanas/<semana seguinte>/plano.json` + `roteiros/<id>.txt` para:
-- **18 Shorts** (Seg–Sáb × 3) de **~1:10** (900–1.050 caracteres; NUNCA abaixo de ~850, o TikTok só paga vídeo > 1 min).
-- **3 longos** (Seg, Qua, Sex) de **~45 min** (~35–38 mil caracteres), divididos em capítulos de 4–6 min.
+- **18 Shorts** (Seg–Sáb × 3) de **~1:05** (870–950 caracteres; NUNCA abaixo de ~840, o TikTok só paga vídeo > 1 min).
+- **1 longo por mês**, só na semana que tem a **1ª quarta-feira do mês** (publica nessa quarta, 20h30): **~42 min** (~34–36 mil caracteres), capítulos de 4–6 min. Antes de escrever um novo, use o que já estiver pronto em `ops/backlog/longos/` (mova para a semana e ajuste a data). Nas outras semanas, nenhum longo.
 
 ## Estilo dos Shorts (padrão do canal "O que aconteceria se...")
 - Gancho na 1ª frase (até 2s), frases curtas, números concretos, 4–6 parágrafos, fecha com CTA de comentário com palavra-chave ("Comenta LUA se...").
@@ -96,7 +149,9 @@ Medir a semana que passou e dizer ao Roteirista o que fazer mais/menos.
 # 🎙️ Narrador (Seg–Sáb 07h)
 
 ## Entrega
-`ops/semanas/<semana>/narracoes/<id>.mp3` para os itens de **hoje** com status `roteiro` (3 Shorts; + o longo em Seg/Qua/Sex). Status → `narrado`.
+`ops/semanas/<semana>/narracoes/<id>.mp3` para os itens de **hoje** com status `roteiro` (3 Shorts; + o longo se o plano tiver um hoje — 1 por mês). Status → `narrado`.
+
+**Orçamento: plano Creator, 121 mil créditos/mês.** Shorts no modelo Eleven v4 (~1 crédito/caractere). O **longo no modelo Eleven Flash v2.5** (~0,5 crédito/caractere), mesma voz. Não refaça uma narração mais de uma vez sem avisar o dono.
 
 ## Ferramenta: ElevenLabs no navegador do app Claude (PC do dono)
 - Precisa do PC "izar" ligado com o app Claude aberto e logado no ElevenLabs. Se não conseguir acessar: avise o dono e pare (o Produtor vai esperar).
@@ -106,10 +161,10 @@ Medir a semana que passou e dizer ao Roteirista o que fazer mais/menos.
 - Gerar: botão "Generate speech" / "Regenerate speech". Esperar ~20–40s. Ouça os primeiros segundos? Não dá; confira a duração no player.
 - Baixar: botão de download do player inferior. O arquivo cai em `C:\Users\kauan\Downloads` (às vezes como `.tmp` até o dono fechar a janela de salvar). Pegue o arquivo mais recente com o tamanho certo via device_bash (`~/mnt/Downloads`), copie para `~/mnt/Videos/narracoes/<id>.mp3` e faça `device_stage_files` para trazer ao container.
 - **Limite de 10.000 caracteres por geração**: o longo (~37k) vai em 4–5 partes cortadas em fim de capítulo; junte com ffmpeg (`concat`) com 0,4s de silêncio entre partes.
-- Créditos: anote "credits remaining" no evento. Se < 20 mil, avise o dono.
+- Créditos: anote "credits remaining" no evento. Se < 15 mil antes do fim do mês, avise o dono e priorize os Shorts.
 
 ## Checagem
-Duração esperada: Short 1:00–1:20. Se < 1:02, avise (TikTok só monetiza > 1 min) — o Produtor pode alongar o final com o CTA.
+Duração esperada: Short 1:02–1:12. Se < 1:01, avise (TikTok só monetiza > 1 min) — o Produtor pode alongar o final com o CTA.
 Commit dos mp3 no repo (`ops/semanas/<semana>/narracoes/`).
 
 ---
@@ -150,7 +205,9 @@ bash tools/assemble.sh ~/work/<id> ~/reels/<arquivo>.mp4
 # 🎞️ Documentarista — vídeo longo (Seg, Qua, Sex 09h30)
 
 ## Entrega
-Vídeo horizontal **1920×1080, ~45 min**, com capítulos, publicado/agendado no YouTube às **20h30** do mesmo dia, com thumbnail própria.
+Vídeo horizontal **1920×1080, ~42 min**, com capítulos, agendado no YouTube às **20h30** do mesmo dia, com thumbnail própria.
+
+**Frequência: 1 por mês (1ª quarta-feira).** A tarefa roda toda quarta: se o plano da semana não tiver item `longo` com a data de hoje, marque `agents/documentarista` como ocioso (tarefa: "Próximo longo: 1ª quarta do mês") e encerre sem mensagem.
 
 ## Formato (documentário "do zero")
 Pipeline próprio em `pipeline/longo/` (criado no piloto). Cenas reaproveitáveis e baratas de renderizar:
