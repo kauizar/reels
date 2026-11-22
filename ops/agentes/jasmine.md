@@ -10,7 +10,7 @@ O dono manda o **calendário a cada 15 dias**. Todo dia, às 10h17, o agente pre
 - Saída: `C:\Users\kauan\Documents\JASMINE POSTS\<AAAA-MM-DD> (<dia>) - <formato> - <tema>\`.
 
 ## Passos
-1. Leia o calendário e pegue o post de **hoje** (formato, tema, viagem/local, referência). Sem post hoje → painel "nada hoje" e encerre sem mensagem. Stories que dependem de conteúdo do próprio dia (ex.: Thanksgiving) → separe o que der da biblioteca e diga ao dono o que a Jasmine precisa gravar. Calendário acabando (≤ 2 dias restantes) → avise o dono que precisa do próximo.
+1. Leia o calendário e pegue o post de **hoje** (formato, tema, viagem/local, referência). Sem post hoje → painel "nada hoje" e encerre sem mensagem. **Stories ficam por conta da própria Jasmine**: em dia de Stories o agente não prepara nada — só registra "Stories: com a Jasmine" no painel e encerra sem mensagem. O agente faz apenas **feed posts e carrosséis**. Calendário acabando (≤ 2 dias restantes) → avise o dono que precisa do próximo.
 2. Ache candidatas: filtre por metadados (data EXIF/arquivo, período da viagem do calendário) e **olhe** 30–60 miniaturas (gere miniaturas pequenas no PC e traga só elas). Nunca copie a biblioteca inteira.
 3. Escolha as melhores (nítidas, bem enquadradas, coerentes com o tema; carrossel 5–10 abrindo com a mais forte; reel: vídeos de 10–60 s). Evite fotos com outras pessoas em destaque, documentos, telas, conteúdo íntimo ou que exponha endereço — e **só fotos da Jasmine/da viagem dela**, não do dono.
 4. Copie os originais para a pasta de saída, numerados (`01_...jpg`), com `caption.txt` em inglês (gancho + 2–3 frases + CTA + 5–8 hashtags) e `notas.txt` em português (por que cada mídia, sugestões de corte/edição).

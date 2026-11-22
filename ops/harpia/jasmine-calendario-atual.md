@@ -11,4 +11,6 @@
 | Dom 29/11 | Stories | A glimpse into my lifestyle | Refeições plant-based, hábitos de bem-estar, um momento calmo |
 | Seg 30/11 | Feed post | The many sides of building something | UCLA Anderson, South Bay Squad e negócios, contado de forma pessoal |
 
+**Stories (25, 26 e 29/11) ficam por conta da Jasmine — o agente não prepara.**
+
 Regras do plano: legendas na maioria SEM pergunta de engajamento; ideias são sugestões; nós escolhemos as fotos da Shared Library. Próximo plano: 1–15/dez.
