@@ -7,8 +7,8 @@ Regras novas (pedido da Jasmine, 23/11):
 
 | Semana | Post | Formato | Tema | Pacote enviado |
 |---|---|---|---|---|
-| 24–30/11 | — | — | Sem posts. Organizar biblioteca por continente + destaques | — |
-| 1–6/12 (provas) | Qui 04/12 | Carrossel | Places that stay with you | Sex 28/11 |
+| 24–29/11 | — | — | Sem posts. Organizar biblioteca por continente + destaques | — |
+| 30/11–6/12 (provas) | Qui 03/12 | Carrossel | Places that stay with you | Sex 27/11 |
 | 7–13/12 | Ter 08/12 | Carrossel | A journey through endurance (70.3 Havaí 2016 → hoje) | Sex 04/12 |
 | 7–13/12 | Sex 11/12 | Feed | No two days look the same | Sex 04/12 |
 | 14–20/12 | Ter 15/12 | Feed | The many sides of building something (UCLA Anderson, SBS, negócios) | Sex 11/12 |
