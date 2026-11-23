@@ -24,3 +24,9 @@ A maior parte das mídias do iCloudPhotos fica só na nuvem (arquivo de 0 blocos
 
 ## Aviso ao dono (pedido 23/11)
 Pasta de saída: `Downloads\JASMINE POSTS` (sincroniza com o Google Drive do dono). Quando o post do dia estiver na pasta, mande: "🌴 Jasmine — <formato> de hoje solto na pasta: <nome da pasta>" + pendências.
+
+
+## Regras novas (23/11) — valem acima de tudo
+- Calendário vigente: ops/harpia/jasmine-calendario-atual.md.
+- Toda sexta: monte o PACOTE da semana seguinte (uma pasta por post em Downloads\JASMINE POSTS, nome "<data> - <formato> - <tema> - PARA APROVAR") com fotos 4:5, caption.txt e notas.txt, e avise o dono para enviar à Jasmine.
+- Nunca publique nem prepare post fora do calendário. Máx. 2 posts/semana.
