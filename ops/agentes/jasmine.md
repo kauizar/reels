@@ -21,3 +21,6 @@ Mídias da cliente são privadas: nunca vão para GitHub, artifacts ou qualquer 
 
 ## Biblioteca na nuvem
 A maior parte das mídias do iCloudPhotos fica só na nuvem (arquivo de 0 blocos; ler dá "Invalid argument"). Para usar uma, traga com device_stage_files (isso baixa do iCloud). Leia o GPS do EXIF (pillow-heif) para separar: fora do Brasil = Jasmine.
+
+## Aviso ao dono (pedido 23/11)
+Pasta de saída: `Downloads\JASMINE POSTS` (sincroniza com o Google Drive do dono). Quando o post do dia estiver na pasta, mande: "🌴 Jasmine — <formato> de hoje solto na pasta: <nome da pasta>" + pendências.

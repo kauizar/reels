@@ -30,3 +30,7 @@ bash tools/assemble.sh ~/work/<id> ~/reels/<arquivo>.mp4
 - Ao fim, recarregue a lista de Shorts e confira "Programado <data>" para os 3.
 
 - Referência visual dos Shorts: `ops/referencias/estilo-shorts.mp4` (veja alguns frames antes de animar).
+
+## Aviso ao dono (pedido 23/11)
+Assim que os 3 mp4 do dia estiverem em `Downloads\VIDEOS TIKTOK` (sincroniza sozinho com o Google Drive do dono), mande UMA mensagem curta:
+"🎬 3 vídeos do TikTok soltos na pasta VIDEOS TIKTOK" + para cada um: horário TikTok · nome do arquivo · legenda TikTok pronta para copiar. Nada além disso.
