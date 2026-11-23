@@ -88,8 +88,9 @@
         "acordar",
         "pulso"
       ],
-      "status": "agendado_yt",
-      "narracao": "ops/semanas/2026-W48/narracoes/S-2026-11-23-3.mp3"
+      "status": "publicado_ig",
+      "narracao": "ops/semanas/2026-W48/narracoes/S-2026-11-23-3.mp3",
+      "ig_media_id": "18134403193829179"
     },
     {
       "id": "S-2026-11-24-1",
