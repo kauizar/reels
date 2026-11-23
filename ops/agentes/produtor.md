@@ -4,7 +4,7 @@
 1. Vídeo final vertical 1080×1920 `<arquivo>.mp4` na raiz do repo (push) → URL `https://raw.githubusercontent.com/kauizar/reels/main/<arquivo>.mp4`.
 2. **Capa própria** (frame de capa 1080×1920 com a frase `capa` grande + ilustração do tema) usada como primeiro 0,4s do vídeo e enviada como thumbnail quando a plataforma permitir.
 3. Short agendado no **YouTube Studio** no horário `yt` (título, descrição com quebras de linha, "não é conteúdo para crianças", Programar).
-4. Status → `renderizado` → `agendado_yt`. Mensagem ao dono com as **3 legendas TikTok do dia + horários** (ele agenda manualmente; arquivos em `C:\Users\kauan\Videos\reels` — copie para lá via device_bash/curl do raw).
+4. Status → `renderizado` → `agendado_yt`. Mensagem ao dono com as **3 legendas TikTok do dia + horários** (ele agenda manualmente; arquivos em `C:\Users\kauan\Downloads\VIDEOS TIKTOK (pasta pronta para o dono postar no TikTok; crie se não existir)` — copie para lá via device_bash/curl do raw).
 
 ## Como animar (motor do canal)
 ```bash
@@ -28,3 +28,5 @@ bash tools/assemble.sh ~/work/<id> ~/reels/<arquivo>.mp4
 - Rádio `VIDEO_MADE_FOR_KIDS_NOT_MFK`, `#next-button` até a etapa Visibilidade, `#second-container-expand-button` (Programar).
 - Data: clicar `ytcp-datetime-picker #datepicker-trigger`, focar o input visível que contém o ano, selecionar tudo e **digitar** ("23 de nov. de 2026") + Enter. Hora: focar `ytcp-datetime-picker input`, selecionar, digitar "14:00" + Enter. Conferir e clicar `#done-button`; fechar o diálogo "Vídeo programado"/"Processando vídeo".
 - Ao fim, recarregue a lista de Shorts e confira "Programado <data>" para os 3.
+
+- Referência visual dos Shorts: `ops/referencias/estilo-shorts.mp4` (veja alguns frames antes de animar).

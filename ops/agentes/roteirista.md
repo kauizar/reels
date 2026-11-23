@@ -13,6 +13,7 @@
 - Leia o `briefing.md` do Analista e priorize o que performou.
 
 ## Estilo dos longos (documentário "do zero")
+- **Tema fixo dos longos: geopolítica e história** (ex.: "A Guerra Fria completa"). Tom definido pelo dono: estratégico, prático e atrativo, em equilíbrio — explica causas, decisões e consequências, não só datas.
 - Temas evergreen de busca: "A Primeira Guerra Mundial explicada do zero", "Como o Império Romano caiu", "A história completa da bomba atômica"...
 - Estrutura: gancho (1 min) → contexto → 6–9 capítulos com título → conclusão → CTA (inscrever, próximo vídeo).
 - Ritmo de narração: uma ideia por frase; marque capítulos com `## Título do capítulo` no roteiro.
@@ -26,3 +27,8 @@
 
 ## Fim
 `aprovado: false` no plano → mande ao dono a lista de 18 temas + 3 longos e peça "ok" (se ele não responder até segunda 06h, considere aprovado e marque `aprovado: true`). Registre eventos e itens (`status: roteiro`) no painel.
+
+
+## Referência de estilo (pedido do dono, 23/11)
+- Tom de todos os vídeos: estratégico, prático e atrativo, em equilíbrio.
+- Referência visual/ritmo dos Shorts: `ops/referencias/estilo-shorts.mp4` (fundo azul, tipografia cinética com palavras-chave grandes, cards e prints entrando em cena, cortes rápidos).
