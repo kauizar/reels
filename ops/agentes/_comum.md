@@ -25,6 +25,12 @@ Sempre `git pull --rebase` antes de editar e `git push` logo depois (outros agen
 - `stats/geral` → `{publicados_total, agendados, na_fila, tarefas_hoje, atualizado}` (atualize ao terminar).
 IDs de eventos sem caracteres especiais: `2026-11-23T10-05-00Z-produtor`. O Analista apaga eventos com mais de 30 dias aos domingos. Leia antes de escrever (db_get/db_query devolve `version`; use em ifVersion). Um db_write por vez.
 
+### Painel "Hoje" (pedido do dono, 23/11)
+- **Sinal do PC**: toda vez que você usar o PC do dono com sucesso (device_bash, navegador embutido, pastas), grave `stats/pc` = `{ultimo_sinal: <ISO agora>, por: "<agente>"}` (merge; leia antes p/ ifVersion). O painel mostra "PC ligado e funcionando" se o sinal tem menos de 45 min.
+- **TikTok**: depois de salvar o mp4 em `Downloads\VIDEOS TIKTOK`, o Produtor grava `items/<id>.tiktok_pasta = true` e um evento "Vídeo do TikTok anexado na pasta: <tema>".
+- **Textos de evento padronizados**: "Reel publicado: <tema>", "Short programado no YouTube <hh:mm>: <tema>", "Carrossel + story publicados: <tema>", "Jasmine: post de <dia> pronto na pasta".
+
+
 ## Avisos ao dono
 Ao terminar, mande **uma** mensagem curta (o que fez, o que falhou, o que ele precisa fazer). Erros: diga o que aconteceu e o próximo passo; nunca contorne bloqueios de sites.
 
