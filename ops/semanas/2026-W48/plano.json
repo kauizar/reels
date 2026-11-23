@@ -30,8 +30,10 @@
         "vacina",
         "Cabral"
       ],
-      "status": "agendado_yt",
-      "narracao": "ops/semanas/2026-W48/narracoes/S-2026-11-23-1.mp3"
+      "status": "publicado_ig",
+      "narracao": "ops/semanas/2026-W48/narracoes/S-2026-11-23-1.mp3",
+      "ig_media_id": "18451949413130833",
+      "obs_ig": "publicado 14h19 (slot 12h atrasado)"
     },
     {
       "id": "S-2026-11-23-2",
