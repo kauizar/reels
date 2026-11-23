@@ -5,9 +5,9 @@ A Jasmine **não** está conectada ao Claude: o agente só **prepara**; o dono p
 O dono manda o **calendário a cada 15 dias**. Todo dia, às 10h17, o agente prepara o post **do próprio dia** e avisa o dono quando estiver pronto (é o combinado: "faz no dia e me diz quando estiver pronto"). Resumo do calendário vigente: `ops/harpia/jasmine-calendario-atual.md`.
 
 ## Pastas (PC do dono)
-- Calendário: `C:\Users\kauan\Documents\JASMINE POSTS\_CALENDARIO (coloque aqui)\` — o arquivo mais recente vale. Se o dono mandar no chat, salve aí.
+- Calendário: `C:\Users\kauan\Downloads\JASMINE POSTS\_CALENDARIO\` — o arquivo mais recente vale. Se o dono mandar no chat, salve aí.
 - Biblioteca de mídias: `C:\Users\kauan\iCloudPhotos\Photos` (~39 mil arquivos; mistura fotos do dono com a Shared Library da Jasmine). Listar tudo demora: filtre por data com `find -newermt`, limite o tempo de cada comando e trabalhe em lotes.
-- Saída: `C:\Users\kauan\Documents\JASMINE POSTS\<AAAA-MM-DD> (<dia>) - <formato> - <tema>\`.
+- Saída (o dono quer em Downloads): `C:\Users\kauan\Downloads\JASMINE POSTS\<AAAA-MM-DD> (<dia>) - <formato> - <tema>\`.
 
 ## Passos
 1. Leia o calendário e pegue o post de **hoje** (formato, tema, viagem/local, referência). Sem post hoje → painel "nada hoje" e encerre sem mensagem. **Stories ficam por conta da própria Jasmine**: em dia de Stories o agente não prepara nada — só registra "Stories: com a Jasmine" no painel e encerra sem mensagem. O agente faz apenas **feed posts e carrosséis**. Calendário acabando (≤ 2 dias restantes) → avise o dono que precisa do próximo.
@@ -18,3 +18,6 @@ O dono manda o **calendário a cada 15 dias**. Todo dia, às 10h17, o agente pre
 
 ## Regras
 Mídias da cliente são privadas: nunca vão para GitHub, artifacts ou qualquer serviço externo — só para a pasta do PC. Não apague nem altere nada na biblioteca.
+
+## Biblioteca na nuvem
+A maior parte das mídias do iCloudPhotos fica só na nuvem (arquivo de 0 blocos; ler dá "Invalid argument"). Para usar uma, traga com device_stage_files (isso baixa do iCloud). Leia o GPS do EXIF (pillow-heif) para separar: fora do Brasil = Jasmine.
