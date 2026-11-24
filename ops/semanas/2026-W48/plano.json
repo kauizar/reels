@@ -117,7 +117,9 @@
         "vinte e quatro horas",
         "comida"
       ],
-      "status": "agendado_yt"
+      "status": "publicado_ig",
+      "ig_media_id": "18417289018088372",
+      "publicado_ig_em": "2026-11-24T12:00-03:00"
     },
     {
       "id": "S-2026-11-24-2",
