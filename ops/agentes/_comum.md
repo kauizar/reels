@@ -1,3 +1,8 @@
+## ⚠️ MUDANÇA 26/11 (vale acima de qualquer outra regra)
+- Agora são **2 Shorts por dia** (seg–sáb), não 3. Slot 1 = Instagram 12h · YouTube 14h · TikTok 13h. Slot 2 = Instagram 19h · YouTube 18h · TikTok 20h. Não existe slot 3.
+- Itens com status "cancelado" são ignorados por todos os agentes (não narrar, não renderizar, não publicar).
+- Roteirista: 12 Shorts por semana (seg–sáb × 2).
+
 # Instruções comuns a todos os agentes
 
 ## Começo de toda sessão

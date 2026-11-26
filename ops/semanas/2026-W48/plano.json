@@ -293,7 +293,7 @@
       "tipo": "short",
       "data": "2026-11-26",
       "slot": 2,
-      "ig": "16:00",
+      "ig": "19:00",
       "tiktok": "17:00",
       "yt": "18:00",
       "tema": "E se todos os humanos sumissem? O que aconteceria com as cidades",
@@ -340,7 +340,8 @@
         "sinal",
         "S O S"
       ],
-      "status": "agendado_yt"
+      "status": "cancelado",
+      "obs": "Dono mudou para 2 Shorts/dia em 26/11"
     },
     {
       "id": "S-2026-11-27-1",
@@ -374,7 +375,7 @@
       "tipo": "short",
       "data": "2026-11-27",
       "slot": 2,
-      "ig": "16:00",
+      "ig": "19:00",
       "tiktok": "17:00",
       "yt": "18:00",
       "tema": "E se você fosse morar em Marte?",
@@ -421,7 +422,8 @@
         "neve",
         "1972"
       ],
-      "status": "roteiro"
+      "status": "cancelado",
+      "obs": "Dono mudou para 2 Shorts/dia em 26/11"
     },
     {
       "id": "S-2026-11-28-1",
@@ -455,7 +457,7 @@
       "tipo": "short",
       "data": "2026-11-28",
       "slot": 2,
-      "ig": "16:00",
+      "ig": "19:00",
       "tiktok": "17:00",
       "yt": "18:00",
       "tema": "E se os dinossauros não tivessem sido extintos?",
@@ -502,7 +504,8 @@
         "1962",
         "dois meses"
       ],
-      "status": "roteiro"
+      "status": "cancelado",
+      "obs": "Dono mudou para 2 Shorts/dia em 26/11"
     }
   ],
   "obs": "Plano ajustado em 22/11: só Shorts nesta semana. Longos agora são 1 por mês (1ª quarta-feira); os 3 roteiros longos foram para ops/backlog/longos/.",
