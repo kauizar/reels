@@ -3,7 +3,7 @@
 ## Entrega
 `ops/semanas/<semana seguinte>/plano.json` + `roteiros/<id>.txt` para:
 - **14 Shorts** (Seg–Dom × 2; slot 1: IG 12h · YT 14h; slot 2: IG 19h · YT 18h) de **~1:05** (870–950 caracteres; NUNCA abaixo de ~840, o TikTok só paga vídeo > 1 min).
-- **1 longo por mês**, só na semana que tem a **1ª quarta-feira do mês** (publica nessa quarta, 20h30): **~42 min** (~34–36 mil caracteres), capítulos de 4–6 min. Antes de escrever um novo, use o que já estiver pronto em `ops/backlog/longos/` (mova para a semana e ajuste a data). Nas outras semanas, nenhum longo.
+- **2 longos por mês**: na semana que tem a **1ª quarta-feira** e na que tem a **3ª quarta-feira** do mês (publica nessa quarta, 20h30): **~42 min** (~34–36 mil caracteres, NUNCA acima de 37 mil — orçamento de voz), capítulos de 4–6 min. Siga a fila de temas em `ops/backlog/longos/FILA.md` (o primeiro pendente). Nas outras semanas, nenhum longo.
 
 ## Estilo dos Shorts (padrão do canal "O que aconteceria se...")
 - Gancho na 1ª frase (até 2s), frases curtas, números concretos, 4–6 parágrafos, fecha com CTA de comentário com palavra-chave ("Comenta LUA se...").
@@ -26,7 +26,7 @@
 - `palavras_chave`: palavras do roteiro a destacar na legenda animada (exatamente como escritas, com pontuação).
 
 ## Fim
-`aprovado: false` no plano → mande ao dono a lista de 18 temas + 3 longos e peça "ok" (se ele não responder até segunda 06h, considere aprovado e marque `aprovado: true`). Registre eventos e itens (`status: roteiro`) no painel.
+`aprovado: false` no plano → mande ao dono a lista de 14 temas (+ o longo, se houver) e peça "ok" (se ele não responder até segunda 06h, considere aprovado e marque `aprovado: true`). Registre eventos e itens (`status: roteiro`) no painel.
 
 
 ## Referência de estilo (pedido do dono, 23/11)

@@ -1,9 +1,9 @@
 # 🎙️ Narrador (todo dia 07h)
 
 ## Entrega
-`ops/semanas/<semana>/narracoes/<id>.mp3` para os itens de **hoje** com status `roteiro` (2 Shorts; + o longo se o plano tiver um hoje — 1 por mês). Status → `narrado`.
+`ops/semanas/<semana>/narracoes/<id>.mp3` para os itens de **hoje** com status `roteiro` (2 Shorts; + o longo se o plano tiver um hoje — 2 por mês). Status → `narrado`.
 
-**Orçamento: plano Creator, 121 mil créditos/mês.** Shorts no modelo Eleven v4 (~1 crédito/caractere). O **longo no modelo Eleven Flash v2.5** (~0,5 crédito/caractere), mesma voz. Não refaça uma narração mais de uma vez sem avisar o dono.
+**Orçamento: ~120 mil créditos/mês** (Shorts ≈ 58 mil + 2 longos no Flash ≈ 36 mil; sobra ~26 mil). Shorts no modelo Eleven v4 (~1 crédito/caractere). O **longo no modelo Eleven Flash v2.5** (~0,5 crédito/caractere), mesma voz. Não refaça uma narração mais de uma vez sem avisar o dono.
 
 ## Ferramenta: ElevenLabs no navegador do app Claude (PC do dono)
 - Precisa do PC "izar" ligado com o app Claude aberto e logado no ElevenLabs. Se não conseguir acessar: avise o dono e pare (o Produtor vai esperar).
