@@ -506,8 +506,64 @@
       ],
       "status": "cancelado",
       "obs": "Dono mudou para 2 Shorts/dia em 26/11"
+    },
+    {
+      "id": "S-2026-11-29-1",
+      "tipo": "short",
+      "data": "2026-11-29",
+      "slot": 1,
+      "ig": "12:00",
+      "tiktok": "13:00",
+      "yt": "14:00",
+      "tema": "E se você ficasse preso numa ilha deserta?",
+      "arquivo": "s-2026-11-29-1.mp4",
+      "roteiro": "ops/semanas/2026-W48/roteiros/S-2026-11-26-3.txt",
+      "caracteres": 986,
+      "titulo_yt": "E se você ficasse preso numa ilha deserta? 🏝️ #shorts #sobrevivencia",
+      "descricao_yt": "E se você ficasse preso numa ilha deserta? Como sobreviver numa ilha deserta: água, abrigo, fogo, comida e sinal de resgate, do primeiro dia ao primeiro mês. Assista até o final e conta nos comentários o que você faria.\n\n#shorts #curiosidades #oqueaconteceria #sobrevivencia #ilhadeserta #natureza",
+      "legenda_ig": "Você acorda na areia, molhado, com o barulho das ondas. O barco afundou. E a ilha está vazia. 👀\nComo sobreviver numa ilha deserta: água, abrigo, fogo, comida e sinal de resgate, do primeiro dia ao primeiro mês.\nQuem você levaria pra essa ilha? Manda esse vídeo pra essa pessoa.\n\n#oqueaconteceria #curiosidades #sobrevivencia #ilhadeserta #natureza #reels",
+      "legenda_tt": "Você acorda na areia, molhado, com o barulho das ondas. O barco afundou. E a ilha está vazia. 👀\nComo sobreviver numa ilha deserta: água, abrigo, fogo, comida e sinal de resgate, do primeiro dia ao primeiro mês.\nQuem você levaria pra essa ilha? Manda esse vídeo pra essa pessoa.\n\n#oqueaconteceria #curiosidades #sobrevivencia #ilhadeserta #natureza #fyp #foryou",
+      "capa": "PRESO NA ILHA",
+      "palavras_chave": [
+        "três dias",
+        "água",
+        "fogo",
+        "coco",
+        "sinal",
+        "S O S"
+      ],
+      "status": "roteiro",
+      "obs": "Dono mudou para 2 Shorts/dia em 26/11"
+    },
+    {
+      "id": "S-2026-11-29-2",
+      "tipo": "short",
+      "data": "2026-11-29",
+      "slot": 2,
+      "ig": "19:00",
+      "tiktok": "20:00",
+      "yt": "18:00",
+      "tema": "E se você caísse de um avião sem paraquedas?",
+      "arquivo": "s-2026-11-29-2.mp4",
+      "roteiro": "ops/semanas/2026-W48/roteiros/S-2026-11-27-3.txt",
+      "caracteres": 1026,
+      "titulo_yt": "E se você caísse de um avião sem paraquedas? 🪂 #shorts #fisica",
+      "descricao_yt": "E se você caísse de um avião sem paraquedas? Velocidade terminal, três minutos de queda e a história real de Vesna Vulović, que sobreviveu a uma queda de mais de dez mil metros. Assista até o final e conta nos comentários o que você faria.\n\n#shorts #curiosidades #oqueaconteceria #fisica #sobrevivencia #aviao",
+      "legenda_ig": "Você está a dez mil metros de altura e cai do avião. Sem paraquedas. 👀\nVelocidade terminal, três minutos de queda e a história real de Vesna Vulović, que sobreviveu a uma queda de mais de dez mil metros.\nManda esse vídeo pra aquele amigo que tem medo de avião. Ou melhor, não manda.\n\n#oqueaconteceria #curiosidades #fisica #sobrevivencia #aviao #reels",
+      "legenda_tt": "Você está a dez mil metros de altura e cai do avião. Sem paraquedas. 👀\nVelocidade terminal, três minutos de queda e a história real de Vesna Vulović, que sobreviveu a uma queda de mais de dez mil metros.\nManda esse vídeo pra aquele amigo que tem medo de avião. Ou melhor, não manda.\n\n#oqueaconteceria #curiosidades #fisica #sobrevivencia #aviao #fyp #foryou",
+      "capa": "SEM PARAQUEDAS",
+      "palavras_chave": [
+        "dez mil metros",
+        "duzentos quilômetros por hora",
+        "três minutos",
+        "Vesna Vulović",
+        "neve",
+        "1972"
+      ],
+      "status": "roteiro",
+      "obs": "Dono mudou para 2 Shorts/dia em 26/11"
     }
   ],
-  "obs": "Plano ajustado em 22/11: só Shorts nesta semana. Longos agora são 1 por mês (1ª quarta-feira); os 3 roteiros longos foram para ops/backlog/longos/.",
+  "obs": "Plano ajustado em 22/11: só Shorts nesta semana. Longos agora são 1 por mês (1ª quarta-feira); os 3 roteiros longos foram para ops/backlog/longos/. | 26/11: rotina nova = 2 Shorts/dia de domingo a domingo; temas cancelados do slot 3 de 26 e 27/11 viraram os 2 Shorts de dom 29/11.",
   "aprovado_por": "dono, no chat, 22/11 13h38"
 }

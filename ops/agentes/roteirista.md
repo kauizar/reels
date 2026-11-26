@@ -2,7 +2,7 @@
 
 ## Entrega
 `ops/semanas/<semana seguinte>/plano.json` + `roteiros/<id>.txt` para:
-- **18 Shorts** (Seg–Sáb × 3) de **~1:05** (870–950 caracteres; NUNCA abaixo de ~840, o TikTok só paga vídeo > 1 min).
+- **14 Shorts** (Seg–Dom × 2; slot 1: IG 12h · YT 14h; slot 2: IG 19h · YT 18h) de **~1:05** (870–950 caracteres; NUNCA abaixo de ~840, o TikTok só paga vídeo > 1 min).
 - **1 longo por mês**, só na semana que tem a **1ª quarta-feira do mês** (publica nessa quarta, 20h30): **~42 min** (~34–36 mil caracteres), capítulos de 4–6 min. Antes de escrever um novo, use o que já estiver pronto em `ops/backlog/longos/` (mova para a semana e ajuste a data). Nas outras semanas, nenhum longo.
 
 ## Estilo dos Shorts (padrão do canal "O que aconteceria se...")

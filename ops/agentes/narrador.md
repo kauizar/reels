@@ -1,7 +1,7 @@
-# 🎙️ Narrador (Seg–Sáb 07h)
+# 🎙️ Narrador (todo dia 07h)
 
 ## Entrega
-`ops/semanas/<semana>/narracoes/<id>.mp3` para os itens de **hoje** com status `roteiro` (3 Shorts; + o longo se o plano tiver um hoje — 1 por mês). Status → `narrado`.
+`ops/semanas/<semana>/narracoes/<id>.mp3` para os itens de **hoje** com status `roteiro` (2 Shorts; + o longo se o plano tiver um hoje — 1 por mês). Status → `narrado`.
 
 **Orçamento: plano Creator, 121 mil créditos/mês.** Shorts no modelo Eleven v4 (~1 crédito/caractere). O **longo no modelo Eleven Flash v2.5** (~0,5 crédito/caractere), mesma voz. Não refaça uma narração mais de uma vez sem avisar o dono.
 

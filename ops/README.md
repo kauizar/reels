@@ -11,22 +11,22 @@ Mini-operação de vídeos com 6 agentes (sessões agendadas do Claude). Todos l
 
 | Dia | O que sai |
 |---|---|
-| Seg–Sáb | 3 Shorts de ~1:05 — Instagram 12h00 · 16h00 · 19h00 / TikTok 13h00 · 17h00 · 20h00 (manual, pelo dono) / YouTube Shorts 14h00 · 18h00 · 21h00 |
+| Todo dia (dom a dom) | 2 Shorts de ~1:05 — Instagram Reels 12h00 · 19h00 / YouTube Shorts 14h00 · 18h00 / TikTok: o dono posta manualmente os arquivos da pasta `C:\Users\kauan\Downloads\VIDEOS TIKTOK` |
 | 1ª quarta-feira do mês | 1 vídeo longo (~42 min, horizontal) no YouTube às 20h30 |
-| Domingo | Sem postagem. Relatórios, checkup, roteiros e produção da semana |
+| Domingo | Também tem os 2 Shorts. Além disso: relatórios, checkup e roteiros da semana seguinte |
 
-Orçamento de voz: **ElevenLabs Creator (121 mil créditos/mês)**. Shorts na voz normal (~1 crédito/caractere, ~78 mil/mês); o longo mensal no modelo **Flash** (~0,5 crédito/caractere, ~19 mil). Sobra ~20 mil para refações.
+Orçamento de voz: **ElevenLabs Creator (~120 mil créditos/mês)**. Shorts na voz normal (~1 crédito/caractere; 2/dia × ~31 dias ≈ 58 mil/mês); o longo mensal no modelo **Flash** (~0,5 crédito/caractere, ~19 mil). Sobra ~20 mil para refações.
 
 ## Agentes e horários de trabalho
 
 | Agente | Quando roda | Faz |
 |---|---|---|
 | 📊 Analista (Relatórios) | Dom 09h | Puxa métricas (Windsor: IG + YouTube), escreve relatório, define temas da semana |
-| ✍️ Roteirista | Dom 10h | 18 roteiros de Shorts + 3 roteiros longos da semana, legendas, títulos, descrições |
-| 🎙️ Narrador | Seg–Sáb 07h | Gera as narrações do dia (3 Shorts; + o longo quando o plano tiver um no dia) no ElevenLabs, pelo navegador do app Claude no PC do dono |
-| 🎬 Produtor | Seg–Sáb 08h | Anima/renderiza os 3 Shorts do dia, sobe no repo, agenda no YouTube Studio, manda legendas TikTok |
+| ✍️ Roteirista | Dom 10h | 14 roteiros de Shorts (seg–dom × 2) + o longo do mês quando houver, legendas, títulos, descrições |
+| 🎙️ Narrador | Todo dia 07h | Gera as narrações do dia (2 Shorts; + o longo quando o plano tiver um no dia) no ElevenLabs, pelo navegador do app Claude no PC do dono |
+| 🎬 Produtor | Todo dia 08h | Anima/renderiza os 2 Shorts do dia, sobe no repo, agenda no YouTube Studio, copia os mp4 para Downloads\VIDEOS TIKTOK e manda as legendas TikTok |
 | 🎞️ Documentarista | Quartas 09h23 (só trabalha na 1ª quarta do mês) | Produz o vídeo longo do dia e agenda no YouTube para 20h30 |
-| 📤 Publicador | Seg–Sáb 12h, 16h, 19h | Publica o Reel da vez no Instagram (Windsor) e confere o Short do horário |
+| 📤 Publicador | Todo dia 12h e 19h | Publica o Reel da vez no Instagram (Windsor) e confere o Short do horário |
 
 Fluxo de um Short: `roteiro → narrado → renderizado → agendado_yt → publicado_ig` (+ TikTok manual).
 
